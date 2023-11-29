@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase" Name="SSR_ResourceBase" Abstract="True">
+        <soundInteract>Silver_Drop</soundInteract>
+        <soundDrop>Silver_Drop</soundDrop>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>75</stackLimit>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smallVolume>false</smallVolume>
+        <statBases>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="SSR_ResourceBase">
+        <defName>SSR_Sand</defName>
+        <label>沙子</label>
+        <description>沙子</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/BaMaterial/Sand</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <stackLimit>300</stackLimit>
+        <smallVolume>true</smallVolume>
+        <statBases>
+            <MarketValue>1</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="SSR_ResourceBase">
+        <defName>SSR_Silicon</defName>
+        <label>硅</label>
+        <description>硅</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/BaMaterial/Silicon</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <stackLimit>300</stackLimit>
+        <statBases>
+            <MarketValue>5</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="SSR_ResourceBase">
+        <defName>SSR_Carbon</defName>
+        <label>碳</label>
+        <description>碳</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/BaMaterial/Carbon</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <useHitPoints>true</useHitPoints>
+        <stackLimit>150</stackLimit>
+        <smallVolume>true</smallVolume>
+        <statBases>
+            <MaxHitPoints>30</MaxHitPoints>
+            <MarketValue>1.2</MarketValue>
+            <Mass>0.03</Mass>
+            <Flammability>1</Flammability>
+        </statBases>
+    </ThingDef>
+
+</Defs>

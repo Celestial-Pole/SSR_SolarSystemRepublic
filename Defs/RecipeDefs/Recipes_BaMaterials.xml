@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- <RecipeDef Name="SSR_Recipe_Base" Abstract="True">
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <workSkill>Crafting</workSkill>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="SSR_Recipe_Base">
+        <defName>SSR_Recipe_PrecisionLens</defName>
+        <label>制作精密镜片</label>
+        <description>制作精密镜片。</description>
+        <jobString>正在制作精密镜片。</jobString>
+        <workAmount>1800</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_Glass</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SSR_Glass</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SSR_PrecisionLens>1</SSR_PrecisionLens>
+        </products>
+        <researchPrerequisites>
+            <li>SSRPrecisionOptics</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SSR_Recipe_Base">
+        <defName>SSR_Recipe_SuperconductingMaterial</defName>
+        <label>制作超导材料</label>
+        <description>制作超导材料。</description>
+        <jobString>正在制作超导材料。</jobString>
+        <workAmount>1800</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_Silicon</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SSR_Silicon</li>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SSR_SuperconductingMaterial>1</SSR_SuperconductingMaterial>
+        </products>
+        <researchPrerequisites>
+            <li>SSRRoomTemperatureSuperconductivity</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SSR_Recipe_Base">
+        <defName>SSR_Recipe_StrongElectromagnet</defName>
+        <label>制作强电磁铁</label>
+        <description>制作强电磁铁。</description>
+        <jobString>正在制作强电磁铁。</jobString>
+        <workAmount>1800</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SSR_StrongElectromagnet>1</SSR_StrongElectromagnet>
+        </products>
+        <researchPrerequisites>
+            <li>SSRPrecisionMagneticFieldControl</li>
+        </researchPrerequisites>
+    </RecipeDef>
+
+    <RecipeDef ParentName="SSR_Recipe_Base">
+        <defName>SSR_Recipe_QuantumComputingCore</defName>
+        <label>制作量子计算核心</label>
+        <description>制作量子计算核心。</description>
+        <jobString>正在制作量子计算核心。</jobString>
+        <workAmount>1000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>55</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_SuperconductingMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_Silicon</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>SSR_SuperconductingMaterial</li>
+                <li>SSR_Silicon</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SSR_QuantumComputingCore>1</SSR_QuantumComputingCore>
+        </products>
+        <researchPrerequisites>
+            <li>SSRBasicComputationalScience</li>
+        </researchPrerequisites>
+    </RecipeDef> -->
+
+</Defs>

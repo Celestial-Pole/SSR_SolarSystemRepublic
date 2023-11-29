@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef>
+        <defName>SSR_Faction</defName>
+        <label>太阳系共和国前哨站</label>
+        <description>太阳系共和国前哨站。</description>
+        <leaderTitle>站点主管</leaderTitle>
+        <categoryTag>Outlander</categoryTag>
+        <listOrderPriority>30</listOrderPriority>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <!-- <displayInFactionSelection>false</displayInFactionSelection> -->
+        <hidden>true</hidden>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <factionIconPath>UI/SSR_FactionIcon</factionIconPath>
+        <techLevel>Archotech</techLevel>
+        <factionNameMaker>SSR_FactionNamer</factionNameMaker>
+        <allowedCultures>
+            <li>SSR_Cluture_Communism</li>
+        </allowedCultures>
+        <allowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+        </allowedMemes>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+        </disallowedPrecepts>
+        <structureMemeWeights>
+            <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
+            <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+            <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+            <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+            <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+            <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+            <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+        </structureMemeWeights>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                </categories>
+            </li>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(0,0)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+    </FactionDef>
+
+    <RulePackDef>
+        <defName>SSR_FactionNamer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->太阳系共和国</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

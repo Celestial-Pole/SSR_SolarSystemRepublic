@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+		<defName>SSR_Job_FillAutobench</defName>
+		<driverClass>FS_SSR.JobDriver_FillAutoBench</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+		
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_FillAutobench</defName>
+		<label>fill awb</label>
+		<giverClass>FS_SSR.WorkGiver_FillAutoBench</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>fill awb...</verb>
+		<gerund>filling awb...</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_MaterialSynthesizer</defName>
+    <label>材料合成机</label>
+    <description>材料合成机</description>
+    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Plasteel>350</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>0</Cleanliness>
+	  <Mass>20</Mass>
+    </statBases>
+    <size>(3,2)</size>
+    <designationCategory>Production</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <passability>PassThroughOnly</passability>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <!-- <recipes>
+		<li>SSR_Make_Plasteel</li>
+		<li>SSR_Make_TenPlasteel</li>
+		<li>SSR_Make_HundredPlasteel</li>
+		<li>SSR_Make_Synthread</li>
+		<li>SSR_Make_TenSynthread</li>
+		<li>SSR_Make_HundredSynthread</li>
+		<li>SSR_Make_Hyperweave</li>
+		<li>SSR_Make_TenHyperweave</li>
+		<li>SSR_Make_HundredHyperweave</li>
+		<li>SSR_Make_Graphene</li>
+		<li>SSR_Make_TenGraphene</li>
+		<li>SSR_Make_HundredGraphene</li>
+    <li>SSR_Make_PrecisionLens</li>
+    <li>SSR_Make_SuperconductingMaterial</li>
+    <li>SSR_Make_StrongElectromagnet</li>
+    </recipes> -->
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <comps>
+      <li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+			</li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>SSRElementaryMaterialsScience</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_NumericalControlledMachineTool</defName>
+    <label>数控机床</label>
+    <description>数控机床</description>
+    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Production/NumericalControlledMachineTool/NumericalControlledMachineTool</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Plasteel>350</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>0</Cleanliness>
+	  <Mass>20</Mass>
+    </statBases>
+    <size>(3,2)</size>
+    <designationCategory>Production</designationCategory>
+	<canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <passability>PassThroughOnly</passability>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <comps>
+      <li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+			</li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>SSRElementaryMaterialsScience</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_NeutroamineSynthesizer</defName>
+    <label>中性胺合成仪</label>
+    <description>中性胺合成仪</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/NeutroamineSynthesizer</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>2.5</drawSize>
+    </graphicData>
+	<size>(2,2)</size>
+	<costList>
+	  <Plasteel>100</Plasteel>
+      <Steel>150</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <uiIconScale>0.65</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+	<designationCategory>Production</designationCategory>
+    <rotatable>true</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0</Flammability>
+	  <Mass>30</Mass>
+	  <WorkToBuild>20000</WorkToBuild>
+    </statBases>
+    <pathCost>42</pathCost>
+    <receivesSignals>true</receivesSignals>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <comps>
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>Neutroamine</thingToSpawn>
+        <spawnCount>5</spawnCount>
+        <spawnIntervalRange>18000</spawnIntervalRange>
+        <spawnMaxAdjacent>100</spawnMaxAdjacent>
+        <spawnForbidden>true</spawnForbidden>
+      </li>
+    </comps>
+	<researchPrerequisites>
+      <li>SSRElementaryMaterialsScience</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+</Defs>
