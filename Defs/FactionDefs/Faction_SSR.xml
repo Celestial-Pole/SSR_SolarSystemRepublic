@@ -17,27 +17,42 @@
         <techLevel>Archotech</techLevel>
         <factionNameMaker>SSR_FactionNamer</factionNameMaker>
         <allowedCultures>
-            <li>SSR_Cluture_Communism</li>
+            <li>Astropolitan</li>
         </allowedCultures>
         <allowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
         </allowedMemes>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li>SSR_Meme_Communism</li>
+        </requiredMemes>
         <disallowedPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Darklight_Preferred</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DarknessCombat_Preferred</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">BioSculpter_Despised</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Trees_Desired</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Revered</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
         </disallowedPrecepts>
-        <structureMemeWeights>
-            <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
-            <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-            <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
-            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
-            <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
-            <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
-            <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
-            <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
-        </structureMemeWeights>
         <backstoryFilters>
             <li>
                 <categories>

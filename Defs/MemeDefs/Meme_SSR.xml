@@ -23,11 +23,63 @@
     </exclusionTags>
     <requireOne>
       <li>
-        <li>DrugUse_MedicalOrSocial</li>
+        <li>Apostasy_Abhorrent</li>
+      </li>
+      <li>
+        <li>NutrientPasteEating_DontMind</li>
+      </li>
+      <li>
+        <li>Cannibalism_Abhorrent</li>
+      </li>
+      <li>
+        <li>Charity_Important</li>
+      </li>
+      <li>
+        <li>Comfort_Ignored</li>
+      </li>
+      <li>
+        <li>Corpses_DontCare</li>
+      </li>
+      <li>
+        <li>MarriageName_KeepNames</li>
+      </li>
+      <li>
+        <li>MiningYield_High</li>
+      </li>
+      <li>
+        <li>Nudity_Female_UncoveredGroinDisapproved</li>
+      </li>
+      <li>
+        <li>Nudity_Male_UncoveredGroinDisapproved</li>
+      </li>
+      <li>
+        <li>Research_VeryFast</li>
+      </li>
+      <li>
+        <li>RoughLiving_Welcomed</li>
+      </li>
+      <li>
+        <li>Slavery_Abhorrent</li>
+      </li>
+      <li>
+        <li>SmallSpaces_Acceptable</li>
+      </li>
+      <li>
+        <li>SpouseCount_Female_MaxOne</li>
+      </li>
+      <li>
+        <li>SpouseCount_Male_MaxOne</li>
+      </li>
+      <li>
+        <li>Temperature_Tough</li>
+      </li>
+      <li>
+        <li>WorkDrive_Tripled</li>
       </li>
     </requireOne>
     <generalRules>
       <rulesStrings>
+        <!-- 形容词 -->
         <li>memeAdjective->昆仑</li>
         <li>memeAdjective->禹城</li>
         <li>memeAdjective->禹迹</li>
@@ -35,14 +87,16 @@
         <li>memeAdjective->函夏</li>
         <li>memeAdjective->魏阙</li>
         <li>memeAdjective->九州</li>
+        <!-- 宗派 教义 -->
         <li>memeCreed->禁军</li>
         <li>memeCreed->禁卒</li>
+        <!-- 连字符前缀 -->
         <li>memeHyphenPrefix->宏伟</li>
+        <!-- 概念 -->
         <li>memeConcept->孝道</li>
         <li>memeConcept->仁义</li>
         <li>memeConcept->宗法</li>
-
-
+        <!-- 特殊 -->
         <li>memeDaoJia->道生一，一生二，二生三，三生万物。</li>
         <li>memeDaoJia->天地无名之始，有名万物之母。</li>
         <li>memeDaoJia->人法地，地法天，道法自然。</li>
