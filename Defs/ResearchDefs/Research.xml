@@ -43,7 +43,7 @@
         <description>基础的物理学体系</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-            <li>SSRDataTerminal</li>
+            <li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicTech</li>
@@ -59,7 +59,7 @@
         <description>初级的材料科学，包含了一些简单的材料制造工艺</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicPhysics</li>
@@ -75,7 +75,7 @@
         <description>基础计算科学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElementaryMaterialsScience</li>
@@ -91,7 +91,7 @@
         <description>地球联邦家具</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElementaryMaterialsScience</li>
@@ -107,7 +107,7 @@
         <description>地球联邦服装</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElementaryMaterialsScience</li>
@@ -123,7 +123,7 @@
         <description>室温超导</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicComputationalScience</li>
@@ -139,10 +139,9 @@
         <description>基础电力技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRBasicComputationalScience</li>
             <li>SSRRoomTemperatureSuperconductivity</li>
         </prerequisites>
         <baseCost>4000</baseCost>
@@ -156,7 +155,7 @@
         <description>基础特种服装</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>EFClothing</li>
@@ -172,7 +171,7 @@
         <description>机械助动框架</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicPowerTechnology</li>
@@ -189,7 +188,7 @@
         <description>基础自动机器人</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRMechanicallyAssistedFrame</li>
@@ -205,7 +204,7 @@
         <description>基础作战机器人</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicAutomaton</li>
@@ -222,10 +221,9 @@
         <description>精密磁场控制</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRElementaryMaterialsScience</li>
 			<li>SSRRoomTemperatureSuperconductivity</li>
         </prerequisites>
         <baseCost>3000</baseCost>
@@ -239,7 +237,7 @@
         <description>电磁武器</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPrecisionMagneticFieldControl</li>
@@ -256,7 +254,7 @@
         <description>基础防御设施</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElectromagneticWeapon</li>
@@ -271,7 +269,7 @@
         <label>基础航空技术</label>
         <description>基础航空技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>			<li>SSRDataTerminal</li>
+        <requiredResearchFacilities>			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElectromagneticWeapon</li>
@@ -287,7 +285,7 @@
         <description>核能</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicComputationalScience</li>
@@ -303,7 +301,7 @@
         <description>可控核聚变</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRNuclearEnergy</li>
@@ -320,10 +318,10 @@
         <description>精密光学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRElementaryMaterialsScience</li>
+			<li>SSRBasicComputationalScience</li>
         </prerequisites>
         <baseCost>3000</baseCost>
         <researchViewX>4</researchViewX>
@@ -336,7 +334,7 @@
         <description>望远镜制作</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPrecisionOptics</li>
@@ -352,7 +350,7 @@
         <description>先进望远镜</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-            <li>SSRDataTerminal</li>
+            <li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRTelescopeManufacturing</li>
@@ -368,7 +366,7 @@
         <description>科学种植技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicComputationalScience</li>
@@ -384,7 +382,7 @@
         <description>基因改良作物</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRScientificPlantingTechnology</li>
@@ -400,7 +398,7 @@
         <description>基础医学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicComputationalScience</li>
@@ -416,7 +414,7 @@
         <description>放射学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicMedicine</li>
@@ -432,7 +430,7 @@
         <description>核医学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRNuclearEnergy</li>
@@ -449,7 +447,7 @@
         <description>强化仿生体</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicMedicine</li>
@@ -463,8 +461,9 @@
         <defName>SSRLHC</defName>
         <label>强子对撞机</label>
         <description>强子对撞机</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPrecisionMagneticFieldControl</li>
@@ -478,8 +477,9 @@
         <defName>SSRIntermediatePhysics</defName>
         <label>中级物理学</label>
         <description>进阶的物理学体系</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLHC</li>
@@ -493,8 +493,9 @@
         <defName>SSRIntermediateMaterialsScience</defName>
         <label>中级材料学</label>
         <description>中级材料学，基于对微观世界更细致地观察和研究，现在可以结构制造尺度更微小的材料</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediatePhysics</li>
@@ -510,7 +511,7 @@
         <description>中级计算科学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateMaterialsScience</li>
@@ -524,8 +525,9 @@
         <defName>SSRStandardizedArtificialIntelligence</defName>
         <label>规范化人工智能</label>
         <description>规范化人工智能</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -539,8 +541,9 @@
         <defName>SSRIntelligenceBullet</defName>
         <label>智能子弹</label>
         <description>智能子弹</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRStandardizedArtificialIntelligence</li>
@@ -554,8 +557,9 @@
         <defName>SSRIntermediateSpecialGarments</defName>
         <label>中级特种服装</label>
         <description>中级特种服装</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRStandardizedArtificialIntelligence</li>
@@ -569,8 +573,9 @@
         <defName>SSRBasicPowerArmor</defName>
         <label>基础动力装甲</label>
         <description>基础动力装甲</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateSpecialGarments</li>
@@ -585,8 +590,9 @@
         <defName>SSRIntermediateAutomaton</defName>
         <label>中级自动机器人</label>
         <description>中级自动机器人</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicPowerArmor</li>
@@ -601,8 +607,9 @@
         <defName>SSRIntermediateCombatRobot</defName>
         <label>中级作战机器人</label>
         <description>中级作战机器人</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateAutomaton</li>
@@ -618,8 +625,9 @@
         <defName>SSRIntermediatePowerTechnology</defName>
         <label>中级电力技术</label>
         <description>中级电力技术</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -634,8 +642,9 @@
         <defName>SSRHighEnergyLaserArray</defName>
         <label>高能激光阵列</label>
         <description>高能激光阵列</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPrecisionOptics</li>
@@ -650,8 +659,9 @@
         <defName>SSRLaserWeapon</defName>
         <label>激光武器</label>
         <description>激光武器</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRHighEnergyLaserArray</li>
@@ -665,8 +675,9 @@
         <defName>SSRIntermediateTurret</defName>
         <label>中级防御设施</label>
         <description>中级防御设施</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLaserWeapon</li>
@@ -681,8 +692,9 @@
         <defName>SSRMiniaturizationOfNuclearPower</defName>
         <label>核能小型化</label>
         <description>核能小型化</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -697,8 +709,9 @@
         <defName>SSRIntermediateAviation</defName>
         <label>中级航空技术</label>
         <description>中级航空技术</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRLaserWeapon</li>
@@ -717,7 +730,7 @@
         <description>基础航天技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateAviation</li>
@@ -733,7 +746,7 @@
         <description>中级种植技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -750,7 +763,7 @@
         <description>纳米级医学成像技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -766,7 +779,7 @@
         <description>智能诊断技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateComputationalScience</li>
@@ -782,7 +795,7 @@
         <description>中级医学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRNanoscaleMedicalImagingTechnology</li>
@@ -800,7 +813,7 @@
         <description>超凡仿生体</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRIntermediateMedicine</li>
@@ -815,11 +828,12 @@
         <defName>SSRAdvancedPhysics</defName>
         <label>高级物理学</label>
         <description>更高级的物理学体系</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRIntermediateMaterialsScience</li>
+			<li>SSRIntermediateComputationalScience</li>
         </prerequisites>
         <baseCost>15000</baseCost>
         <researchViewX>20</researchViewX>
@@ -830,8 +844,9 @@
         <defName>SSRAdvancedMaterialsScience</defName>
         <label>高级材料学</label>
         <description>高级材料学，对原子与分子组合的完全掌控，让我们可以组合甚至创造出我们所需要的材料</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedPhysics</li>
@@ -847,7 +862,7 @@
         <description>高级计算科学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -861,8 +876,9 @@
         <defName>SSRFurniture</defName>
         <label>太阳系共和国家具</label>
         <description>太阳系共和国家具</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -876,8 +892,9 @@
         <defName>SSRClothing</defName>
         <label>太阳系共和国服装</label>
         <description>太阳系共和国服装</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMaterialsScience</li>
@@ -891,8 +908,9 @@
         <defName>SSRAdvancedArtificialIntelligence</defName>
         <label>高级人工智能</label>
         <description>高级人工智能</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -907,8 +925,9 @@
         <defName>SSRAdvancedSpecialGarments</defName>
         <label>高级特种服装</label>
         <description>高级特种服装</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedArtificialIntelligence</li>
@@ -919,11 +938,12 @@
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRIntermediatePowerArmor</defName>
-        <label>中级动力装甲</label>
-        <description>中级动力装甲</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+        <defName>SSRAdvancedPowerArmor</defName>
+        <label>高级动力装甲</label>
+        <description>高级动力装甲</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRAdvancedEnergyTechnology</li>
@@ -939,11 +959,12 @@
         <defName>SSRAdvancedAutomaton</defName>
         <label>高级自动机器人</label>
         <description>高级自动机器人</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRIntermediatePowerArmor</li>
+			<li>SSRAdvancedPowerArmor</li>
 			<li>SSRIntermediateAutomaton</li>
         </prerequisites>
         <baseCost>15000</baseCost>
@@ -955,8 +976,9 @@
         <defName>SSRAdvancedCombatRobot</defName>
         <label>高级作战机器人</label>
         <description>高级作战机器人</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedAutomaton</li>
@@ -972,8 +994,9 @@
         <defName>SSRAdvancedEnergyTechnology</defName>
         <label>高级能源技术</label>
         <description>高级能源技术</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -988,8 +1011,9 @@
         <defName>SSRPlasmaWeapon</defName>
         <label>等离子武器</label>
         <description>等离子武器</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1003,8 +1027,9 @@
         <defName>SSRAdvancedTurret</defName>
         <label>高级防御设施</label>
         <description>高级防御设施</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPlasmaWeapon</li>
@@ -1019,8 +1044,9 @@
         <defName>SSRBasicAntimatterApplications</defName>
         <label>基础反物质应用</label>
         <description>基础反物质应用</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedEnergyTechnology</li>
@@ -1034,8 +1060,9 @@
         <defName>SSRAdvancedAviation</defName>
         <label>高级航空技术</label>
         <description>中级航空技术</description>
-		<requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPlasmaWeapon</li>
@@ -1054,7 +1081,7 @@
         <description>高级航天技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedAviation</li>
@@ -1070,7 +1097,7 @@
         <description>高级种植技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1087,7 +1114,7 @@
         <description>高级医学</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedComputationalScience</li>
@@ -1104,7 +1131,7 @@
         <description>高级仿生体</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
-			<li>SSRDataTerminal</li>
+			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedMedicine</li>

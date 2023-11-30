@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>SSRDataTerminal</defName>
+    <defName>SSR_DataTerminal</defName>
     <label>数据终端</label>
     <description>数据终端</description>
     <graphicData>
@@ -43,13 +43,71 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
+        <shortCircuitInRain>false</shortCircuitInRain>
         <basePowerConsumption>200</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Facility">
         <statOffsets>
           <ResearchSpeedFactor>1</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_LHC</defName>
+    <label>强子对撞机</label>
+    <description>强子对撞机</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/LHC/LHC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>9</drawSize>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <researchPrerequisites><li>SSRBasicTech</li></researchPrerequisites>
+    <size>(9,9)</size>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <designationHotKey>Misc4</designationHotKey>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <canOverlapZones>false</canOverlapZones>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <WorkToBuild>150000</WorkToBuild>
+      <Mass>300000</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Plasteel>120</Plasteel>
+      <Gold>20</Gold>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>200000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>5</ResearchSpeedFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
       </li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- <RecipeDef Name="SSR_Recipe_Base" Abstract="True">
+    <RecipeDef Name="SSR_Recipe_Base" Abstract="True">
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>
@@ -11,11 +11,11 @@
 
 
     <RecipeDef ParentName="SSR_Recipe_Base">
-        <defName>SSR_Recipe_PrecisionLens</defName>
+        <defName>SSR_Make_PrecisionLens</defName>
         <label>制作精密镜片</label>
         <description>制作精密镜片。</description>
         <jobString>正在制作精密镜片。</jobString>
-        <workAmount>1800</workAmount>
+        <workAmount>500</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -23,7 +23,7 @@
                         <li>SSR_Glass</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -40,11 +40,11 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SSR_Recipe_Base">
-        <defName>SSR_Recipe_SuperconductingMaterial</defName>
+        <defName>SSR_Make_SuperconductingMaterial</defName>
         <label>制作超导材料</label>
         <description>制作超导材料。</description>
         <jobString>正在制作超导材料。</jobString>
-        <workAmount>1800</workAmount>
+        <workAmount>300</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -52,7 +52,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>5</count>
             </li>
             <li>
                 <filter>
@@ -60,7 +60,7 @@
                         <li>SSR_Silicon</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -78,11 +78,11 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SSR_Recipe_Base">
-        <defName>SSR_Recipe_StrongElectromagnet</defName>
+        <defName>SSR_Make_StrongElectromagnet</defName>
         <label>制作强电磁铁</label>
         <description>制作强电磁铁。</description>
         <jobString>正在制作强电磁铁。</jobString>
-        <workAmount>1800</workAmount>
+        <workAmount>300</workAmount>
         <ingredients>
             <li>
                 <filter>
@@ -90,7 +90,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -107,7 +107,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="SSR_Recipe_Base">
-        <defName>SSR_Recipe_QuantumComputingCore</defName>
+        <defName>SSR_Make_QuantumComputingCore</defName>
         <label>制作量子计算核心</label>
         <description>制作量子计算核心。</description>
         <jobString>正在制作量子计算核心。</jobString>
@@ -119,7 +119,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>55</count>
+                <count>15</count>
             </li>
             <li>
                 <filter>
@@ -127,7 +127,7 @@
                         <li>SSR_SuperconductingMaterial</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>
@@ -135,7 +135,7 @@
                         <li>SSR_Silicon</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -151,6 +151,6 @@
         <researchPrerequisites>
             <li>SSRBasicComputationalScience</li>
         </researchPrerequisites>
-    </RecipeDef> -->
+    </RecipeDef>
 
 </Defs>

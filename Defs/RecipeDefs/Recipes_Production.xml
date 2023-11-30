@@ -296,7 +296,7 @@
             <li>SSR_Carbon</li>
           </thingDefs>
         </filter>
-        <count>15</count>
+        <count>1.5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -327,7 +327,7 @@
             <li>SSR_Carbon</li>
           </thingDefs>
         </filter>
-        <count>150</count>
+        <count>15</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -358,7 +358,7 @@
             <li>SSR_Carbon</li>
           </thingDefs>
         </filter>
-        <count>1500</count>
+        <count>150</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>

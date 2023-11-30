@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--<HediffDef>
+  <HediffDef>
     <defName>SSR_Invisibility</defName>
 	<hediffClass>HediffWithComps</hediffClass>
-    <label>invisibility</label>
-    <description>invisibility</description>
+    <label>隐身</label>
+    <description>隐身</description>
     <isBad>false</isBad>
 	<minSeverity>0.001</minSeverity>
     <comps>
@@ -13,6 +13,6 @@
         <compClass>HediffComp_Invisibility</compClass>
       </li>
     </comps>
-  </HediffDef>-->
+  </HediffDef>
  
 </Defs>

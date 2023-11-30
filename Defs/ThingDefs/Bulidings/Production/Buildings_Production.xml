@@ -54,20 +54,20 @@
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0</Flammability>
       <Cleanliness>0</Cleanliness>
-	  <Mass>20</Mass>
+	  <Mass>200</Mass>
     </statBases>
     <size>(3,2)</size>
     <designationCategory>Production</designationCategory>
-	<canOverlapZones>false</canOverlapZones>
+	  <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
     <passability>PassThroughOnly</passability>
-	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <!-- <recipes>
+    <recipes>
 		<li>SSR_Make_Plasteel</li>
 		<li>SSR_Make_TenPlasteel</li>
 		<li>SSR_Make_HundredPlasteel</li>
@@ -83,7 +83,7 @@
     <li>SSR_Make_PrecisionLens</li>
     <li>SSR_Make_SuperconductingMaterial</li>
     <li>SSR_Make_StrongElectromagnet</li>
-    </recipes> -->
+    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -134,14 +134,79 @@
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0</Flammability>
       <Cleanliness>0</Cleanliness>
-	  <Mass>20</Mass>
+	  <Mass>200</Mass>
     </statBases>
     <size>(3,2)</size>
     <designationCategory>Production</designationCategory>
-	<canOverlapZones>false</canOverlapZones>
+	  <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
     <passability>PassThroughOnly</passability>
-	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <comps>
+      <li Class="FS_SSR.TCP_AutoBenchAddon">
+				<maxQuality>Legendary</maxQuality>
+			</li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>SSRElementaryMaterialsScience</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>SSR_IntegratedChipManufacturingMachine</defName>
+    <label>集成化芯片制造机</label>
+    <description>集成化芯片制造机</description>
+    <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Production/IntegratedChipManufacturingMachine/IntegratedChipManufacturingMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>3</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Plasteel>350</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>0</Cleanliness>
+	  <Mass>200</Mass>
+    </statBases>
+    <size>(3,2)</size>
+    <designationCategory>Production</designationCategory>
+	  <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <passability>PassThroughOnly</passability>
+	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -178,15 +243,15 @@
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>2.5</drawSize>
     </graphicData>
-	<size>(2,2)</size>
-	<costList>
-	  <Plasteel>100</Plasteel>
+	  <size>(2,2)</size>
+	  <costList>
+	    <Plasteel>100</Plasteel>
       <Steel>150</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <uiIconScale>0.65</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
-	<designationCategory>Production</designationCategory>
+	  <designationCategory>Production</designationCategory>
     <rotatable>true</rotatable>
     <fillPercent>0.5</fillPercent>
     <statBases>
