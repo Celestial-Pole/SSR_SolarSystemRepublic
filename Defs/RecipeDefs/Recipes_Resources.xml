@@ -2,7 +2,7 @@
 <Defs>
 
   <RecipeDef>
-    <defName>SSR_Make_Sand</defName>
+    <defName>SSR_Recipe_Sand</defName>
     <label>制作沙子</label>
     <description>制作沙子。</description>
     <jobString>正在制作沙子。</jobString>
@@ -35,7 +35,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Make_Silicon</defName>
+    <defName>SSR_Recipe_Silicon</defName>
     <label>制作硅</label>
     <description>制作硅。</description>
     <jobString>正在制作硅。</jobString>
@@ -68,7 +68,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Make_Carbon</defName>
+    <defName>SSR_Recipe_Carbon</defName>
     <label>制作碳</label>
     <description>制作碳。</description>
     <jobString>正在制作碳。</jobString>
@@ -100,7 +100,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Make_TenCarbon</defName>
+    <defName>SSR_Recipe_TenCarbon</defName>
     <label>制造碳 x10</label>
     <description>制造十块碳。</description>
     <jobString>正在制造十块碳。</jobString>
@@ -132,7 +132,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Make_HundredCarbon</defName>
+    <defName>SSR_Recipe_HundredCarbon</defName>
     <label>制造碳 x100</label>
     <description>制造一百块碳。</description>
     <jobString>正在制造一百块碳。</jobString>
