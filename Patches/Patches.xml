@@ -32,9 +32,9 @@
 	]/recipes
   </xpath>
   <value>
-	<li>SSR_Make_Carbon</li>
-	<li>SSR_Make_TenCarbon</li>
-	<li>SSR_Make_HundredCarbon</li>
+	<li>SSR_Recipe_Carbon</li>
+	<li>SSR_Recipe_TenCarbon</li>
+	<li>SSR_Recipe_HundredCarbon</li>
   </value>
 </Operation>
 

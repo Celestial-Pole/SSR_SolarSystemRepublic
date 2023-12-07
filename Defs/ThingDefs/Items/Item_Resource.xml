@@ -2,22 +2,23 @@
 <Defs>
 
     <ThingDef ParentName="ResourceBase" Name="SSR_ResourceBase" Abstract="True">
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+        <stackLimit>75</stackLimit>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
         <soundInteract>Silver_Drop</soundInteract>
         <soundDrop>Silver_Drop</soundDrop>
         <useHitPoints>false</useHitPoints>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-        <resourceReadoutPriority>Middle</resourceReadoutPriority>
-        <stackLimit>75</stackLimit>
+        <smeltable>false</smeltable> 
         <burnableByRecipe>false</burnableByRecipe>
         <smallVolume>false</smallVolume>
         <statBases>
             <Flammability>0</Flammability>
             <DeteriorationRate>0</DeteriorationRate>
         </statBases>
-        <thingCategories>
-            <li>ResourcesRaw</li>
-        </thingCategories>
     </ThingDef>
 
     <ThingDef ParentName="SSR_ResourceBase">
