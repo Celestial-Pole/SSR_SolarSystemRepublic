@@ -2,7 +2,7 @@
 <Defs>
 
   <RecipeDef>
-    <defName>SSR_Recipe_Plasteel</defName>
+    <defName>SSR_Make_Plasteel</defName>
     <label>制造玻璃钢</label>
     <description>制造玻璃钢。</description>
     <jobString>正在制造玻璃钢。</jobString>
@@ -33,7 +33,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_TenPlasteel</defName>
+    <defName>SSR_Make_TenPlasteel</defName>
     <label>制造玻璃钢 x10</label>
     <description>制造十块玻璃钢。</description>
     <jobString>正在制造十块玻璃钢。</jobString>
@@ -64,7 +64,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_HundredPlasteel</defName>
+    <defName>SSR_Make_HundredPlasteel</defName>
     <label>制造玻璃钢 x100</label>
     <description>制造一百块玻璃钢。</description>
     <jobString>正在制造一百块玻璃钢。</jobString>
@@ -95,7 +95,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_Synthread</defName>
+    <defName>SSR_Make_Synthread</defName>
     <label>制造合成纤维</label>
     <description>制造合成纤维。</description>
     <jobString>正在制造合成纤维。</jobString>
@@ -126,7 +126,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_TenSynthread</defName>
+    <defName>SSR_Make_TenSynthread</defName>
     <label>制造合成纤维 x10</label>
     <description>制造十块合成纤维。</description>
     <jobString>正在制造十块合成纤维。</jobString>
@@ -157,7 +157,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_HundredSynthread</defName>
+    <defName>SSR_Make_HundredSynthread</defName>
     <label>制造合成纤维 x100</label>
     <description>制造一百块合成纤维。</description>
     <jobString>正在制造一百块合成纤维。</jobString>
@@ -188,7 +188,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_Hyperweave</defName>
+    <defName>SSR_Make_Hyperweave</defName>
     <label>制造超织物</label>
     <description>制造超织物。</description>
     <jobString>正在制造超织物。</jobString>
@@ -219,7 +219,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_TenHyperweave</defName>
+    <defName>SSR_Make_TenHyperweave</defName>
     <label>制造超织物 x10</label>
     <description>制造十块超织物。</description>
     <jobString>正在制造十块超织物。</jobString>
@@ -250,7 +250,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_HundredHyperweave</defName>
+    <defName>SSR_Make_HundredHyperweave</defName>
     <label>制造超织物 x100</label>
     <description>制造一百块超织物。</description>
     <jobString>正在制造一百块超织物。</jobString>
@@ -281,7 +281,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_Graphene</defName>
+    <defName>SSR_Make_Graphene</defName>
     <label>制造石墨烯</label>
     <description>制造石墨烯。</description>
     <jobString>正在制造石墨烯。</jobString>
@@ -312,7 +312,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_TenGraphene</defName>
+    <defName>SSR_Make_TenGraphene</defName>
     <label>制造石墨烯 x10</label>
     <description>制造十块石墨烯。</description>
     <jobString>正在制造十块石墨烯。</jobString>
@@ -343,7 +343,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_HundredGraphene</defName>
+    <defName>SSR_Make_HundredGraphene</defName>
     <label>制造石墨烯 x100</label>
     <description>制造一百块石墨烯。</description>
     <jobString>正在制造一百块石墨烯。</jobString>
@@ -374,7 +374,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_Carbyne</defName>
+    <defName>SSR_Make_Carbyne</defName>
     <label>制造碳炔</label>
     <description>制造碳炔。</description>
     <jobString>正在制造碳炔。</jobString>
@@ -405,7 +405,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_TenCarbyne</defName>
+    <defName>SSR_Make_TenCarbyne</defName>
     <label>制造碳炔 x10</label>
     <description>制造十块碳炔。</description>
     <jobString>正在制造十块碳炔。</jobString>
@@ -436,7 +436,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SSR_Recipe_HundredCarbyne</defName>
+    <defName>SSR_Make_HundredCarbyne</defName>
     <label>制造碳炔 x100</label>
     <description>制造一百块碳炔。</description>
     <jobString>正在制造一百块碳炔。</jobString>
