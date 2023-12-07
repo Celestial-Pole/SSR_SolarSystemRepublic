@@ -94,7 +94,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRElementaryMaterialsScience</li>
+			<li>SSRBasicComputationalScience</li>
         </prerequisites>
         <baseCost>500</baseCost>
         <researchViewX>4</researchViewX>
@@ -110,7 +110,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRElementaryMaterialsScience</li>
+			<li>SSRBasicComputationalScience</li>
         </prerequisites>
         <baseCost>500</baseCost>
         <researchViewX>5</researchViewX>
@@ -269,7 +269,8 @@
         <label>基础航空技术</label>
         <description>基础航空技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>			<li>SSR_DataTerminal</li>
+        <requiredResearchFacilities>			
+            <li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRElectromagneticWeapon</li>
@@ -280,9 +281,9 @@
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRNuclearEnergy</defName>
-        <label>核能</label>
-        <description>核能</description>
+        <defName>SSRNuclearPhysics</defName>
+        <label>核物理</label>
+        <description>核物理</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
@@ -304,7 +305,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRNuclearEnergy</li>
+			<li>SSRNuclearPhysics</li>
 			<li>SSRPrecisionMagneticFieldControl</li>
         </prerequisites>
         <baseCost>8000</baseCost>
@@ -418,6 +419,7 @@
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRBasicMedicine</li>
+            <li>SSRNuclearPhysics</li>
         </prerequisites>
         <baseCost>4000</baseCost>
         <researchViewX>5</researchViewX>
@@ -433,8 +435,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRNuclearEnergy</li>
-			<li>SSRBasicMedicine</li>
+			<li>SSRRadiology</li>
         </prerequisites>
         <baseCost>4000</baseCost>
         <researchViewX>6</researchViewX>
@@ -456,17 +457,17 @@
         <researchViewX>5</researchViewX>
         <researchViewY>4</researchViewY>
     </ResearchProjectDef>
-	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRLHC</defName>
-        <label>强子对撞机</label>
-        <description>强子对撞机</description>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRSupercomputer</defName>
+        <label>超级计算机</label>
+        <description>超级计算机</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRPrecisionMagneticFieldControl</li>
+			<li>SSRBasicComputationalScience</li>
         </prerequisites>
         <baseCost>8000</baseCost>
         <researchViewX>10</researchViewX>
@@ -823,6 +824,22 @@
         <researchViewX>16</researchViewX>
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRLHC</defName>
+        <label>强子对撞机</label>
+        <description>强子对撞机</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRHighEnergyLaserArray</li>
+        </prerequisites>
+        <baseCost>12000</baseCost>
+        <researchViewX>19</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedPhysics</defName>
@@ -833,7 +850,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRIntermediateComputationalScience</li>
+			<li>SSRLHC</li>
         </prerequisites>
         <baseCost>15000</baseCost>
         <researchViewX>20</researchViewX>
@@ -881,7 +898,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRAdvancedMaterialsScience</li>
+			<li>SSRAdvancedComputationalScience</li>
         </prerequisites>
         <baseCost>1500</baseCost>
         <researchViewX>23</researchViewX>
@@ -897,7 +914,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRAdvancedMaterialsScience</li>
+			<li>SSRAdvancedComputationalScience</li>
         </prerequisites>
         <baseCost>1500</baseCost>
         <researchViewX>24</researchViewX>
