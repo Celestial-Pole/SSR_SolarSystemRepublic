@@ -68,21 +68,21 @@
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
-		<li>SSR_Recipe_Plasteel</li>
-		<li>SSR_Recipe_TenPlasteel</li>
-		<li>SSR_Recipe_HundredPlasteel</li>
-		<li>SSR_Recipe_Synthread</li>
-		<li>SSR_Recipe_TenSynthread</li>
-		<li>SSR_Recipe_HundredSynthread</li>
-		<li>SSR_Recipe_Hyperweave</li>
-		<li>SSR_Recipe_TenHyperweave</li>
-		<li>SSR_Recipe_HundredHyperweave</li>
-		<li>SSR_Recipe_Graphene</li>
-		<li>SSR_Recipe_TenGraphene</li>
-		<li>SSR_Recipe_HundredGraphene</li>
-    <li>SSR_Recipe_PrecisionLens</li>
-    <li>SSR_Recipe_SuperconductingMaterial</li>
-    <li>SSR_Recipe_StrongElectromagnet</li>
+		  <li>SSR_Make_Plasteel</li>
+		  <li>SSR_Make_TenPlasteel</li>
+		  <li>SSR_Make_HundredPlasteel</li>
+		  <li>SSR_Make_Synthread</li>
+	  	<li>SSR_Make_TenSynthread</li>
+	  	<li>SSR_Make_HundredSynthread</li>
+	  	<li>SSR_Make_Hyperweave</li>
+	  	<li>SSR_Make_TenHyperweave</li>
+	  	<li>SSR_Make_HundredHyperweave</li>
+	  	<li>SSR_Make_Graphene</li>
+	  	<li>SSR_Make_TenGraphene</li>
+  		<li>SSR_Make_HundredGraphene</li>
+      <li>SSR_Make_PrecisionLens</li>
+      <li>SSR_Make_SuperconductingMaterial</li>
+      <li>SSR_Make_StrongElectromagnet</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -93,6 +93,7 @@
     <comps>
       <li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
+        <!--<productionFactor>5</productionFactor>-->
 			</li>
     </comps>
     <building>
@@ -223,6 +224,7 @@
     <comps>
       <li Class="FS_SSR.TCP_AutoBenchAddon">
 				<maxQuality>Legendary</maxQuality>
+        <productionFactor>5</productionFactor>
 			</li>
     </comps>
     <building>

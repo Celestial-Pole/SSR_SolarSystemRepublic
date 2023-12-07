@@ -483,7 +483,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRLHC</li>
+			<li>SSRSupercomputer</li>
         </prerequisites>
         <baseCost>10000</baseCost>
         <researchViewX>11</researchViewX>
