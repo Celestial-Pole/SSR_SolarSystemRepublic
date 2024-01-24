@@ -30,59 +30,59 @@
     <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
-      <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,2)</drawSize>
-      <damageData>
+        <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,2)</drawSize>
+        <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
         <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
+        </damageData>
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costList>
-      <Plasteel>350</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+        <Plasteel>350</Plasteel>
+        <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-      <WorkToBuild>3000</WorkToBuild>
-      <MaxHitPoints>500</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Cleanliness>0</Cleanliness>
-	  <Mass>200</Mass>
+        <WorkToBuild>3000</WorkToBuild>
+        <MaxHitPoints>500</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Cleanliness>0</Cleanliness>
+	    <Mass>200</Mass>
     </statBases>
     <size>(3,2)</size>
     <designationCategory>Production</designationCategory>
-	  <canOverlapZones>false</canOverlapZones>
+	<canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
     <passability>PassThroughOnly</passability>
-	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
-		  <li>SSR_Make_Plasteel</li>
-		  <li>SSR_Make_TenPlasteel</li>
-		  <li>SSR_Make_HundredPlasteel</li>
-		  <li>SSR_Make_Synthread</li>
-	  	<li>SSR_Make_TenSynthread</li>
-	  	<li>SSR_Make_HundredSynthread</li>
-	  	<li>SSR_Make_Hyperweave</li>
-	  	<li>SSR_Make_TenHyperweave</li>
-	  	<li>SSR_Make_HundredHyperweave</li>
-	  	<li>SSR_Make_Graphene</li>
-	  	<li>SSR_Make_TenGraphene</li>
-  		<li>SSR_Make_HundredGraphene</li>
-      <li>SSR_Make_PrecisionLens</li>
-      <li>SSR_Make_SuperconductingMaterial</li>
-      <li>SSR_Make_StrongElectromagnet</li>
+	    <li>SSR_Recipe_Plasteel</li>
+		<li>SSR_Recipe_TenPlasteel</li>
+		<li>SSR_Recipe_HundredPlasteel</li>
+		<li>SSR_Recipe_Synthread</li>
+	  	<li>SSR_Recipe_TenSynthread</li>
+	  	<li>SSR_Recipe_HundredSynthread</li>
+	  	<li>SSR_Recipe_Hyperweave</li>
+	  	<li>SSR_Recipe_TenHyperweave</li>
+	  	<li>SSR_Recipe_HundredHyperweave</li>
+	  	<li>SSR_Recipe_Graphene</li>
+	  	<li>SSR_Recipe_TenGraphene</li>
+  		<li>SSR_Recipe_HundredGraphene</li>
+        <li>SSR_Recipe_PrecisionLens</li>
+        <li>SSR_Recipe_SuperconductingMaterial</li>
+        <li>SSR_Recipe_StrongElectromagnet</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -91,16 +91,16 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <comps>
-      <li Class="FS_SSR.TCP_AutoBenchAddon">
-				<maxQuality>Legendary</maxQuality>
-        <!--<productionFactor>5</productionFactor>-->
-			</li>
+        <li Class="FS_SSR.TCP_AutoBenchAddon">
+			<maxQuality>Legendary</maxQuality>
+            <!--<productionFactor>5</productionFactor>-->
+		</li>
     </comps>
     <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-      <li>SSRElementaryMaterialsScience</li>
+        <li>SSRElementaryMaterialsScience</li>
     </researchPrerequisites>
   </ThingDef>
 
