@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_Refuel</defName>
+		<label>补充燃料</label>
+		<giverClass>FS_SSR.WorkGiver_RefuelMultiFuel</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>补充燃料</verb>
+		<gerund>补充燃料</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+</Defs>

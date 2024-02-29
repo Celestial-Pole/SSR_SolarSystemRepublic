@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>SSR_Job_Refuel</defName>
+		<driverClass>FS_SSR.JobDriver_RefuelMultiFuel</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+</Defs>
