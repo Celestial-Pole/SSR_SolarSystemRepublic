@@ -15,4 +15,46 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_Miner</defName>
+		<label>挖矿</label>
+		<giverClass>FS_SSR.WorkGiver_PalMiner</giverClass>
+		<workType>Mining</workType>
+		<emergency>false</emergency>
+		<verb>挖矿</verb>
+		<gerund>挖矿</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_LayerDigger</defName>
+		<label>挖矿井</label>
+		<giverClass>FS_SSR.WorkGiver_LayerDigger</giverClass>
+		<workType>Mining</workType>
+		<emergency>false</emergency>
+		<verb>挖矿井</verb>
+		<gerund>挖矿井</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_TunnelDigger</defName>
+		<label>挖矿道</label>
+		<giverClass>FS_SSR.WorkGiver_TunnelDigger</giverClass>
+		<workType>Mining</workType>
+		<emergency>false</emergency>
+		<verb>挖矿道</verb>
+		<gerund>挖矿道</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
 </Defs>
