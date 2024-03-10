@@ -51,6 +51,12 @@
         <baseCost>4000</baseCost>
         <researchViewX>1</researchViewX>
         <researchViewY>0</researchViewY>
+        <modExtensions>
+			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+				<techLevel>Industrial</techLevel>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -488,6 +494,12 @@
         <baseCost>10000</baseCost>
         <researchViewX>11</researchViewX>
         <researchViewY>0</researchViewY>
+        <modExtensions>
+			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+				<techLevel>Spacer</techLevel>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -855,6 +867,12 @@
         <baseCost>15000</baseCost>
         <researchViewX>20</researchViewX>
         <researchViewY>0</researchViewY>
+        <modExtensions>
+			<li Class="FS_SSR.Generic.DefExt_RPE_UpgradeTechLevel">
+				<effectWorkerClass>FS_SSR.Generic.RPE_UpgradeTechLevel</effectWorkerClass>
+				<techLevel>Ultra</techLevel>
+			</li>
+		</modExtensions>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1159,7 +1177,7 @@
         <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRExtremePhysics</defName>
         <label>极致物理学</label>
         <description>极致物理学</description>
@@ -1196,6 +1214,6 @@
 		<techLevel>Archotech</techLevel>
         <researchViewX>30</researchViewX>
         <researchViewY>0</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef>-->
 	
 </Defs>
