@@ -69,9 +69,9 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
 	    <li>SSR_Recipe_Plasteel</li>
-		<li>SSR_Recipe_TenPlasteel</li>
-		<li>SSR_Recipe_HundredPlasteel</li>
-		<li>SSR_Recipe_Synthread</li>
+		  <li>SSR_Recipe_TenPlasteel</li>
+		  <li>SSR_Recipe_HundredPlasteel</li>
+		  <li>SSR_Recipe_Synthread</li>
 	  	<li>SSR_Recipe_TenSynthread</li>
 	  	<li>SSR_Recipe_HundredSynthread</li>
 	  	<li>SSR_Recipe_Hyperweave</li>
@@ -80,14 +80,28 @@
 	  	<li>SSR_Recipe_Graphene</li>
 	  	<li>SSR_Recipe_TenGraphene</li>
   		<li>SSR_Recipe_HundredGraphene</li>
-        <li>SSR_Recipe_PrecisionLens</li>
-        <li>SSR_Recipe_SuperconductingMaterial</li>
-        <li>SSR_Recipe_StrongElectromagnet</li>
+      <li>SSR_Recipe_Nanofabrics</li>
+      <li>SSR_Recipe_TenNanofabrics</li>
+      <li>SSR_Recipe_HundredNanofabrics</li>
+      <li>SSR_Recipe_Carbyne</li>
+      <li>SSR_Recipe_TenCarbyne</li>
+      <li>SSR_Recipe_HundredCarbyne</li>
+      <li>SSR_Recipe_StandardConstructionElement</li>
+      <li>SSR_Recipe_TenStandardConstructionElement</li>
+      <li>SSR_Recipe_HundredStandardConstructionElement</li>
+      <li>SSR_Recipe_ArmourSteel</li>
+      <li>SSR_Recipe_TenArmourSteel</li>
+      <li>SSR_Recipe_HundredArmourSteel</li>
+      <li>SSR_Recipe_NanoandMicroMechanicalComposite</li>
+      <li>SSR_Recipe_FermiMaterial</li>
+      <li>SSR_Recipe_PrecisionLens</li>
+      <li>SSR_Recipe_SuperconductingMaterial</li>
+      <li>SSR_Recipe_StrongElectromagnet</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
-	<thingCategories>
+	  <thingCategories>
       <li>BuildingsProduction</li>
     </thingCategories>
     <comps>
@@ -214,6 +228,8 @@
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
+      <li>SSR_Recipe_QuantumComputingCore</li>
+      <li>SSR_Recipe_ArtificialIntelligenceChip</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

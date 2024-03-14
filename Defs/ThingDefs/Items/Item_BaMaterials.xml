@@ -80,7 +80,7 @@
             <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
             <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
-            <MarketValue>8</MarketValue>
+            <MarketValue>5</MarketValue>
             <Mass>1.5</Mass>
         </statBases>
         <stuffProps>
@@ -110,7 +110,7 @@
             <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
             <SharpDamageMultiplier>1.25</SharpDamageMultiplier>
             <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
-            <MarketValue>17</MarketValue>
+            <MarketValue>30</MarketValue>
             <Mass>0.75</Mass>
         </statBases>
         <stuffProps>
@@ -146,7 +146,7 @@
             <SharpDamageMultiplier>1.35</SharpDamageMultiplier>
             <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
             <MaxHitPoints>500</MaxHitPoints>
-            <MarketValue>23</MarketValue>
+            <MarketValue>35</MarketValue>
             <Mass>0.25</Mass>
         </statBases>
         <stuffProps>
@@ -192,6 +192,69 @@
                 <WorkToMake>1.25</WorkToMake>
                 <WorkToBuild>1.25</WorkToBuild>
                 <MeleeWeapon_CooldownMultiplier>0.75</MeleeWeapon_CooldownMultiplier>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <ThingDef ParentName="SSR_BaMaterialBase">
+        <defName>SSR_NanoandMicroMechanicalComposite</defName>
+        <label>纳米微械复材</label>
+        <description>纳米微械复材</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/BaMaterial/NanoandMicroMechanicalComposite</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>2.25</SharpDamageMultiplier>
+            <BluntDamageMultiplier>2</BluntDamageMultiplier>
+            <MarketValue>50</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <stuffProps>
+            <statFactors>
+                <MaxHitPoints>5</MaxHitPoints>
+                <Beauty>2</Beauty>
+                <WorkToMake>0.65</WorkToMake>
+                <WorkToBuild>0.65</WorkToBuild>
+                <MeleeWeapon_CooldownMultiplier>0.75</MeleeWeapon_CooldownMultiplier>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <!-- ==================================== Tech Level 3 =====================================-->
+
+    <ThingDef ParentName="SSR_BaMaterialBase">
+        <defName>SSR_FermiMaterial</defName>
+        <label>费米材料</label>
+        <description>费米材料</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/BaMaterial/FermiMaterial</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <StuffPower_Armor_Sharp>5</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>3</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>5</SharpDamageMultiplier>
+            <BluntDamageMultiplier>5</BluntDamageMultiplier>
+            <MarketValue>150</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <smallVolume>true</smallVolume>
+        <stuffProps>
+            <statFactors>
+                <MaxHitPoints>10</MaxHitPoints>
+                <Beauty>10</Beauty>
+                <WorkToMake>0.5</WorkToMake>
+                <WorkToBuild>0.5</WorkToBuild>
+                <MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
             </statFactors>
         </stuffProps>
     </ThingDef>

@@ -64,7 +64,6 @@
         <stackLimit>150</stackLimit>
         <smallVolume>true</smallVolume>
         <statBases>
-            <MaxHitPoints>30</MaxHitPoints>
             <MarketValue>1.2</MarketValue>
             <Mass>0.03</Mass>
             <Flammability>1</Flammability>

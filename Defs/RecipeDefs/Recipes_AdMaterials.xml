@@ -23,7 +23,7 @@
                         <li>SSR_Glass</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -52,7 +52,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>5</count>
             </li>
             <li>
                 <filter>
@@ -60,7 +60,7 @@
                         <li>SSR_Silicon</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -90,7 +90,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -119,7 +119,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>55</count>
+                <count>15</count>
             </li>
             <li>
                 <filter>
@@ -127,7 +127,7 @@
                         <li>SSR_SuperconductingMaterial</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>
@@ -135,7 +135,7 @@
                         <li>SSR_Silicon</li>
                     </thingDefs>
                 </filter>
-                <count>15</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -153,4 +153,50 @@
         </researchPrerequisites>
     </RecipeDef>
 
+    <RecipeDef ParentName="SSR_Recipe_Base">
+        <defName>SSR_Recipe_ArtificialIntelligenceChip</defName>
+        <label>制作人工智能芯片</label>
+        <description>制作人工智能芯片</description>
+        <jobString>正在制作人工智能芯片。</jobString>
+        <workAmount>3000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_QuantumComputingCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_Carbyne</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SSR_SuperconductingMaterial</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>SSR_QuantumComputingCore</li>
+                <li>SSR_Carbyne</li>
+                <li>SSR_SuperconductingMaterial</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
+        </products>
+        <researchPrerequisites>
+            <li>SSRIntermediateComputationalScience</li>
+        </researchPrerequisites>
+    </RecipeDef>
 </Defs>

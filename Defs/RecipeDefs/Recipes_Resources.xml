@@ -9,7 +9,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
     <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-    <workAmount>1600</workAmount>
+    <workAmount>160</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -26,7 +26,73 @@
       </categories>
     </fixedIngredientFilter>
     <products>
+      <SSR_Sand>10</SSR_Sand>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SSR_Recipe_TenSand</defName>
+    <label>制作沙子 x10</label>
+    <description>制作十单位沙子。</description>
+    <jobString>正在制作十单位沙子。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <workAmount>1600</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
       <SSR_Sand>100</SSR_Sand>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SSR_Recipe_HundredSand</defName>
+    <label>制作沙子 x100</label>
+    <description>制作一百单位沙子。</description>
+    <jobString>正在制作一百单位沙子。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <workAmount>16000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <SSR_Sand>1000</SSR_Sand>
     </products>
     <recipeUsers>
       <li>TableStonecutter</li>
@@ -60,6 +126,72 @@
     </fixedIngredientFilter>
     <products>
       <SSR_Silicon>1</SSR_Silicon>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SSR_Recipe_TenSilicon</defName>
+    <label>制作硅 x10</label>
+    <description>制作十单位硅。</description>
+    <jobString>正在制作十单位硅。</jobString>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>4000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SSR_Sand</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SSR_Sand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SSR_Silicon>10</SSR_Silicon>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SSR_Recipe_HundredSilicon</defName>
+    <label>制作硅 x100</label>
+    <description>制作一百单位硅。</description>
+    <jobString>正在制作一百单位硅。</jobString>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>40000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SSR_Sand</li>
+          </thingDefs>
+        </filter>
+        <count>1000</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SSR_Sand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SSR_Silicon>100</SSR_Silicon>
     </products>
     <recipeUsers>
       <li>ElectricSmelter</li>
