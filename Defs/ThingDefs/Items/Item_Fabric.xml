@@ -33,7 +33,7 @@
         <label>石墨烯</label>
         <description>石墨烯是一种强度极高的材料，同时还具有很好的韧性。</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Fabric/Graphene</texPath>
+            <texPath>Things/Item/Fabric/Graphene</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -61,7 +61,7 @@
         <label>纳米织物</label>
         <description>纳米织物。</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Fabric/Nanofabrics</texPath>
+            <texPath>Things/Item/Fabric/Nanofabrics</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>

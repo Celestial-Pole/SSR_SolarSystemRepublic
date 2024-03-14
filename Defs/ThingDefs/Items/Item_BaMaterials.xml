@@ -39,7 +39,7 @@
         <label>玻璃</label>
         <description>玻璃</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/Glass</texPath>
+            <texPath>Things/Item/BaMaterial/Glass</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -69,7 +69,7 @@
         <label>通用构件</label>
         <description>通用构件</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/StandardConstructionElement</texPath>
+            <texPath>Things/Item/BaMaterial/StandardConstructionElement</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -99,7 +99,7 @@
         <label>装甲钢</label>
         <description>装甲钢</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/ArmourSteel</texPath>
+            <texPath>Things/Item/BaMaterial/ArmourSteel</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -131,7 +131,7 @@
         <label>碳炔</label>
         <description>碳炔</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/Carbyne</texPath>
+            <texPath>Things/Item/BaMaterial/Carbyne</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <useHitPoints>true</useHitPoints>
@@ -167,41 +167,11 @@
     </ThingDef>
 
     <ThingDef ParentName="SSR_BaMaterialBase">
-        <defName>SSR_LiquidMetal</defName>
-        <label>液态金属</label>
-        <description>液态金属</description>
-        <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/LiquidMetal</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
-        </graphicData>
-        <statBases>
-            <StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-            <StuffPower_Armor_Blunt>1.05</StuffPower_Armor_Blunt>
-            <StuffPower_Armor_Heat>1.05</StuffPower_Armor_Heat>
-            <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
-            <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
-            <SharpDamageMultiplier>1.65</SharpDamageMultiplier>
-            <BluntDamageMultiplier>1.7</BluntDamageMultiplier>
-            <MarketValue>700</MarketValue>
-            <Mass>0.6</Mass>
-        </statBases>
-        <stuffProps>
-            <statFactors>
-                <MaxHitPoints>4.5</MaxHitPoints>
-                <Beauty>2</Beauty>
-                <WorkToMake>1.25</WorkToMake>
-                <WorkToBuild>1.25</WorkToBuild>
-                <MeleeWeapon_CooldownMultiplier>0.75</MeleeWeapon_CooldownMultiplier>
-            </statFactors>
-        </stuffProps>
-    </ThingDef>
-
-    <ThingDef ParentName="SSR_BaMaterialBase">
         <defName>SSR_NanoandMicroMechanicalComposite</defName>
         <label>纳米微械复材</label>
         <description>纳米微械复材</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/NanoandMicroMechanicalComposite</texPath>
+            <texPath>Things/Item/BaMaterial/NanoandMicroMechanicalComposite</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -233,7 +203,7 @@
         <label>费米材料</label>
         <description>费米材料</description>
         <graphicData>
-            <texPath>Things/Item/Resource/BaMaterial/FermiMaterial</texPath>
+            <texPath>Things/Item/BaMaterial/FermiMaterial</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>

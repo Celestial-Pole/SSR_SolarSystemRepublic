@@ -57,7 +57,7 @@
         <label>精密镜片</label>
         <description>精密镜片</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/PrecisionLens</texPath>
+            <texPath>Things/Item/AdMaterial/PrecisionLens</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -84,7 +84,7 @@
         <label>超导材料</label>
         <description>超导材料</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/SuperconductingMaterial</texPath>
+            <texPath>Things/Item/AdMaterial/SuperconductingMaterial</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -112,7 +112,7 @@
         <label>强电磁铁</label>
         <description>强电磁铁</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/StrongElectromagnet</texPath>
+            <texPath>Things/Item/AdMaterial/StrongElectromagnet</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -140,7 +140,7 @@
         <label>量子计算核心</label>
         <description>量子计算核心</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/QuantumComputingCore</texPath>
+            <texPath>Things/Item/AdMaterial/QuantumComputingCore</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -170,7 +170,7 @@
         <label>人工智能芯片</label>
         <description>人工智能芯片</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/ArtificialIntelligenceChip</texPath>
+            <texPath>Things/Item/AdMaterial/ArtificialIntelligenceChip</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -198,7 +198,7 @@
         <label>集成化量子计算框架</label>
         <description>集成化量子计算框架</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/IntegratedQuantumComputingFramework</texPath>
+            <texPath>Things/Item/AdMaterial/IntegratedQuantumComputingFramework</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -226,7 +226,7 @@
         <label>高密度电池</label>
         <description>高密度电池</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/HighDensityBattery</texPath>
+            <texPath>Things/Item/AdMaterial/HighDensityBattery</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -254,7 +254,7 @@
         <label>高能激光发射器</label>
         <description>高能激光发射器</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/HighenergyLaserEmitter</texPath>
+            <texPath>Things/Item/AdMaterial/HighenergyLaserEmitter</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -284,7 +284,7 @@
         <label>高级人工智能芯片</label>
         <description>高级人工智能芯片</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/AdvancedArtificialIntelligenceChip</texPath>
+            <texPath>Things/Item/AdMaterial/AdvancedArtificialIntelligenceChip</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -312,7 +312,7 @@
         <label>光子计算核心</label>
         <description>光子计算核心</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/PhotonComputingCore</texPath>
+            <texPath>Things/Item/AdMaterial/PhotonComputingCore</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -340,7 +340,7 @@
         <label>极致零部件</label>
         <description>极致零部件</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/ExtremeComponent</texPath>
+            <texPath>Things/Item/AdMaterial/ExtremeComponent</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -368,7 +368,7 @@
         <label>微型聚变装置</label>
         <description>微型聚变装置</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/MiniatureNuclearFusionDevice</texPath>
+            <texPath>Things/Item/AdMaterial/MiniatureNuclearFusionDevice</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
@@ -396,7 +396,7 @@
         <label>高能粒子约束装置</label>
         <description>高能粒子约束装置</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AdMaterial/HighenergyParticleConfinementDevice</texPath>
+            <texPath>Things/Item/AdMaterial/HighenergyParticleConfinementDevice</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <soundInteract>Metal_Drop</soundInteract>
