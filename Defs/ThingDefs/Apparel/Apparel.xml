@@ -129,9 +129,6 @@
     <defName>SSR_EF_LandForce_TrainingClothes</defName>
     <label>陆军作训服</label>
     <description>陆军作训服</description>
-    <recipeMaker>
-      <researchPrerequisite>EFClothing</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/Apparel/EF_LandForce_TrainingClothes/EF_LandForce_TrainingClothes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -177,9 +174,6 @@
     <defName>SSR_EF_SpaceForce_TrainingClothes</defName>
     <label>太空军作训服</label>
     <description>太空军作训服</description>
-    <recipeMaker>
-      <researchPrerequisite>EFClothing</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/Apparel/EF_SpaceForce_TrainingClothes/EF_SpaceForce_TrainingClothes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -225,9 +219,6 @@
     <defName>SSR_EF_LandForce_DressUniform</defName>
     <label>陆军军礼服</label>
     <description>陆军军礼服</description>
-    <recipeMaker>
-      <researchPrerequisite>EFClothing</researchPrerequisite>
-    </recipeMaker>
     <costList>
 		  <SSR_Graphene>7</SSR_Graphene>
     </costList>
@@ -272,11 +263,8 @@
 
   <ThingDef ParentName="SSR_ApparelCustomBase">
     <defName>SSR_EF_SpaceForce_DressUniform</defName>
-    <label>陆军军礼服</label>
-    <description>陆军军礼服</description>
-    <recipeMaker>
-      <researchPrerequisite>EFClothing</researchPrerequisite>
-    </recipeMaker>
+    <label>太空军军礼服</label>
+    <description>太空军军礼服</description>
     <costList>
 		  <SSR_Graphene>7</SSR_Graphene>
     </costList>

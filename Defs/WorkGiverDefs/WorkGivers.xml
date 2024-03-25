@@ -47,7 +47,7 @@
 
 	<!-- ==================================== 矿井 =====================================-->
 
-	<WorkGiverDef>
+	<!--<WorkGiverDef>
 		<defName>SSR_WorkGiver_Miner</defName>
 		<label>挖矿</label>
 		<giverClass>FS_SSR.WorkGiver_PalMiner</giverClass>
@@ -83,6 +83,20 @@
 		<emergency>false</emergency>
 		<verb>挖矿道</verb>
 		<gerund>挖矿道</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1000</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>-->
+
+	<WorkGiverDef>
+		<defName>SSR_WorkGiver_PalmineDeliverMaterial</defName>
+		<label>fill awb</label>
+		<giverClass>FS_SSR.Palmine.WorkGiver_PalMineDeliverMaterial</giverClass>
+		<workType>Hauling</workType>
+		<emergency>false</emergency>
+		<verb>fill awb...</verb>
+		<gerund>filling awb...</gerund>
 		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
 		<priorityInType>1000</priorityInType>
 		<prioritizeSustains>true</prioritizeSustains>
