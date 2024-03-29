@@ -2,7 +2,7 @@
 <Defs>
 	
 	<FS_SSR.FontDef>
-		<defName>AK_Font_YouYuan</defName>
+		<defName>SSR_Font_YouYuan</defName>
 		<label>YouYuan_CHSCHTJP</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>ssrpalmineui</assetBundle>
@@ -10,7 +10,7 @@
 	</FS_SSR.FontDef>
 	
 	<FS_SSR.FontDef>
-		<defName>AK_Font_GulimKR</defName>
+		<defName>SSR_Font_GulimKR</defName>
 		<label>Gulim_KR</label>
 		<modID>SSR.Core</modID>
 		<assetBundle>fontgulimkr</assetBundle>
