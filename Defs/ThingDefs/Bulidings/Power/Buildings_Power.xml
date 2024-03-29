@@ -93,7 +93,7 @@
 		<graphicData>
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(5,8)</drawSize>
+			<drawSize>(15,15)</drawSize>
 		</graphicData>
 		<size>(5,5)</size>
 		<rotatable>false</rotatable>
@@ -110,10 +110,9 @@
 			<li>BuildingsPower</li>
 		</thingCategories>  
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>10</WorkToBuild>
-			<Mass>10</Mass>
-			<Flammability>0.5</Flammability>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0</Flammability>
 		</statBases>
 		<costList>
 			<Steel>10</Steel>
