@@ -103,12 +103,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Power</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<thingCategories>
-			<li>BuildingsPower</li>
-		</thingCategories>  
 		<statBases>
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>15000</WorkToBuild>
