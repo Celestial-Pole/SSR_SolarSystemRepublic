@@ -130,7 +130,7 @@
 				<requireLineOfSight>false</requireLineOfSight>
 				<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+				<nonInterruptingSelfCast>false</nonInterruptingSelfCast>
 				<warmupTime>0</warmupTime>
 				<range>20</range>
 				<soundCast>GunShotA</soundCast>
