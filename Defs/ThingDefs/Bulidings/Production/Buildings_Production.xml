@@ -297,10 +297,10 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef Class="FS_SSR.Palmine.PalMineDef" ParentName="BuildingBase">
+  <ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>
 		<label>帕鲁矿场</label>
-		<thingClass>FS_SSR.Palmine.ThingClass_PalMine</thingClass>
+		<thingClass>FS_SSR.Palmine.ThingClass_Palmine</thingClass>
 		<tickerType>Long</tickerType>
 		<description>可以把人当成帕鲁丢进去挖矿的矿场</description>
 		<graphicData>

@@ -6,6 +6,7 @@
 		<label>flak vest with teleport</label>
 		<description>A vest with armor plates inserted on the chest and back. While quite effective at deflecting gunshots and stabbing attacks against the chest, it does nothing to protect the limbs.</description>
 		<techLevel>Industrial</techLevel>
+		<tickerType>Normal</tickerType>
 		<recipeMaker>
 			<researchPrerequisite>FlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -129,6 +130,7 @@
 				<requireLineOfSight>false</requireLineOfSight>
 				<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
 				<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
 				<warmupTime>0</warmupTime>
 				<range>20</range>
 				<soundCast>GunShotA</soundCast>

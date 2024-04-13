@@ -29,30 +29,6 @@
 
 	<!-- ==================================== 矿井 =====================================-->
 
-	<!--<JobDef>
-		<defName>SSR_Job_Miner</defName>
-		<driverClass>FS_SSR.JobDriver_PalMiner</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
-	<JobDef>
-		<defName>SSR_Job_LayerDigger</defName>
-		<driverClass>FS_SSR.JobDriver_LayerDigger</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>
-
-	<JobDef>
-		<defName>SSR_Job_TunnelDigger</defName>
-		<driverClass>FS_SSR.JobDriver_TunnelDigger</driverClass>
-		<reportString>desc</reportString>
-		<neverShowWeapon>true</neverShowWeapon>
-		<casualInterruptible>false</casualInterruptible>
-	</JobDef>-->
-
 	<JobDef>
 		<defName>SSR_Job_PalmineDeliverMaterial</defName>
 		<driverClass>FS_SSR.Palmine.JobDriver_PalmineDeliverMaterial</driverClass>
