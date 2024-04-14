@@ -58,10 +58,10 @@
     </statBases>
     <size>(3,2)</size>
     <designationCategory>Production</designationCategory>
-	<canOverlapZones>false</canOverlapZones>
+	  <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
     <passability>PassThroughOnly</passability>
-	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	  <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <pathCost>50</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -106,9 +106,9 @@
     </thingCategories>
     <comps>
         <li Class="FS_SSR.TCP_AutoBenchAddon">
-			<maxQuality>Legendary</maxQuality>
-            <!--<productionFactor>5</productionFactor>-->
-		</li>
+			    <maxQuality>Legendary</maxQuality>
+          <!--<productionFactor>5</productionFactor>-->
+		  </li>
     </comps>
     <building>
         <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
@@ -167,7 +167,7 @@
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
-	<thingCategories>
+	  <thingCategories>
       <li>BuildingsProduction</li>
     </thingCategories>
     <comps>
@@ -234,7 +234,7 @@
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
-	<thingCategories>
+	  <thingCategories>
       <li>BuildingsProduction</li>
     </thingCategories>
     <comps>
