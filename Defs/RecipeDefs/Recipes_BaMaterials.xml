@@ -286,7 +286,7 @@
     <products>
       <SSR_NanoandMicroMechanicalComposite>40</SSR_NanoandMicroMechanicalComposite>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 

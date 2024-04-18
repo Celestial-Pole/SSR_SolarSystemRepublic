@@ -21,7 +21,9 @@
 
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/SurgeryOutcomeEffectDef[defName="SurgeryOutcomeBase"]/comps/li[@Class="SurgeryOutcomeComp_ClampToRange"]/range</xpath>
-    <value><range>0~1</range></value>
+    <value>
+		<range>0~1</range>
+	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">

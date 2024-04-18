@@ -30,30 +30,30 @@
     <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
-        <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(3,2)</drawSize>
-        <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-        </damageData>
+      <texPath>Things/Building/Production/MaterialSynthesizer/MaterialSynthesizer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <damageData>
+      <cornerTL>Damage/Corner</cornerTL>
+      <cornerTR>Damage/Corner</cornerTR>
+      <cornerBL>Damage/Corner</cornerBL>
+      <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costList>
-        <Plasteel>350</Plasteel>
-        <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>350</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-        <WorkToBuild>3000</WorkToBuild>
-        <MaxHitPoints>500</MaxHitPoints>
-        <Flammability>0</Flammability>
-        <Cleanliness>0</Cleanliness>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>0</Cleanliness>
 	    <Mass>200</Mass>
     </statBases>
     <size>(3,2)</size>
@@ -105,16 +105,16 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <comps>
-        <li Class="FS_SSR.TCP_AutoBenchAddon">
-			    <maxQuality>Legendary</maxQuality>
-          <!--<productionFactor>5</productionFactor>-->
+      <li Class="FS_SSR.TCP_AutoBenchAddon">
+			  <maxQuality>Legendary</maxQuality>
+        <!--<productionFactor>5</productionFactor>-->
 		  </li>
     </comps>
     <building>
-        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-        <li>SSRElementaryMaterialsScience</li>
+      <li>SSRElementaryMaterialsScience</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -214,7 +214,7 @@
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0</Flammability>
       <Cleanliness>0</Cleanliness>
-	  <Mass>200</Mass>
+	    <Mass>200</Mass>
     </statBases>
     <size>(3,2)</size>
     <designationCategory>Production</designationCategory>
@@ -251,7 +251,7 @@
     </researchPrerequisites>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <!--<ThingDef ParentName="BuildingBase">
     <defName>SSR_NeutroamineSynthesizer</defName>
     <label>中性胺合成仪</label>
     <description>中性胺合成仪</description>
@@ -275,8 +275,8 @@
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Flammability>0</Flammability>
-	  <Mass>30</Mass>
-	  <WorkToBuild>20000</WorkToBuild>
+	    <Mass>30</Mass>
+	    <WorkToBuild>20000</WorkToBuild>
     </statBases>
     <pathCost>42</pathCost>
     <receivesSignals>true</receivesSignals>
@@ -292,10 +292,10 @@
         <spawnForbidden>true</spawnForbidden>
       </li>
     </comps>
-	<researchPrerequisites>
-      <li>SSRElementaryMaterialsScience</li>
+	  <researchPrerequisites>
+      <li>SSRBasicMedicine</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef>-->
 
   <ThingDef Class="FS_SSR.Palmine.PalmineDef" ParentName="BuildingBase">
 		<defName>SSR_Mine</defName>

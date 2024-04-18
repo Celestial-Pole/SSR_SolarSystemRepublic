@@ -28,7 +28,7 @@
     <products>
       <Plasteel>1</Plasteel>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -59,7 +59,7 @@
     <products>
       <Plasteel>10</Plasteel>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -90,7 +90,7 @@
     <products>
       <Plasteel>100</Plasteel>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -214,7 +214,7 @@
     <products>
       <Hyperweave>1</Hyperweave>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -245,7 +245,7 @@
     <products>
       <Hyperweave>10</Hyperweave>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -276,7 +276,7 @@
     <products>
       <Hyperweave>100</Hyperweave>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRElementaryMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -508,7 +508,7 @@
     <products>
       <SSR_Nanofabrics>1</SSR_Nanofabrics>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -548,7 +548,7 @@
     <products>
       <SSR_Nanofabrics>10</SSR_Nanofabrics>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -588,7 +588,7 @@
     <products>
       <SSR_Nanofabrics>100</SSR_Nanofabrics>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -627,7 +627,7 @@
     <products>
       <SSR_Carbyne>1</SSR_Carbyne>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -666,7 +666,7 @@
     <products>
       <SSR_Carbyne>10</SSR_Carbyne>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
@@ -705,7 +705,7 @@
     <products>
       <SSR_Carbyne>100</SSR_Carbyne>
     </products>
-    <researchPrerequisite>SSRIntermediateMaterialsScience</researchPrerequisite>
+    <researchPrerequisite>SSRMedium-levelMaterialsScience</researchPrerequisite>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 

@@ -196,7 +196,7 @@
             <SSR_ArtificialIntelligenceChip>1</SSR_ArtificialIntelligenceChip>
         </products>
         <researchPrerequisites>
-            <li>SSRIntermediateComputationalScience</li>
+            <li>SSRStandardizedArtificialIntelligence</li>
         </researchPrerequisites>
     </RecipeDef>
 </Defs>
