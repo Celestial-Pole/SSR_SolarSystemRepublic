@@ -247,7 +247,7 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-      <li>SSRElementaryMaterialsScience</li>
+      <li>SSRBasicComputationalScience</li>
     </researchPrerequisites>
   </ThingDef>
   
