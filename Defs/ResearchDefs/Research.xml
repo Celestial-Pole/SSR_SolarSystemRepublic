@@ -23,6 +23,18 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>15.00</researchViewX>
 		<researchViewY>1.50</researchViewY>
+		<modExtensions>
+			<li Class="FS_SSR.Research.DefExt_AlterRequire">
+				<alternativeRequires>
+					<li>
+						<requireAnyFacilityOf>
+							<li>这里填需求的设施的defA</li>
+							<li>这里填需求的设施的defB</li>
+						</requireAnyFacilityOf>
+					</li>
+				</alternativeRequires>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
