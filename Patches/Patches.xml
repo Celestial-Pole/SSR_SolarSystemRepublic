@@ -59,7 +59,7 @@
   <value>
 	<designationCategory>Joy</designationCategory>
 	<researchPrerequisites>
-		<li>MegascreenTelevision</li>
+		<li>SSRMegascreenTelevision</li>
 	</researchPrerequisites>
   </value>
 </Operation>

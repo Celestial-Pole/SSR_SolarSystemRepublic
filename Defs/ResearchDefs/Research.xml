@@ -11,7 +11,7 @@
     </ResearchProjectDef>
   
 	<ResearchProjectDef>
-		<defName>MegascreenTelevision</defName>
+		<defName>SSRMegascreenTelevision</defName>
 		<label>巨屏电视</label>
 		<description>巨屏电视</description>
 		<baseCost>3000</baseCost>
@@ -217,7 +217,7 @@
         <researchViewY>1.5</researchViewY>
     </ResearchProjectDef>-->
 
-    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>EFBuilding</defName>
         <label>地球联邦家具</label>
         <description>地球联邦家具</description>
@@ -231,7 +231,7 @@
         <baseCost>500</baseCost>
         <researchViewX>4</researchViewX>
         <researchViewY>1.5</researchViewY>
-    </ResearchProjectDef>-->
+    </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRBasicDefenseStructure</defName>
@@ -542,9 +542,9 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRStandardizedMineConstruction</defName>
-        <label>标准化矿井建设</label>
-        <description>标准化矿井建设</description>
+        <defName>SSRVerticalDrillingTechnology</defName>
+        <label>垂直钻井技术</label>
+        <description>垂直钻井技术</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
@@ -554,6 +554,22 @@
         </prerequisites>
         <baseCost>5000</baseCost>
         <researchViewX>6</researchViewX>
+        <researchViewY>4.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRStandardizedMineConstruction</defName>
+        <label>标准化矿井建设</label>
+        <description>标准化矿井建设</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRVerticalDrillingTechnology</li>
+        </prerequisites>
+        <baseCost>5000</baseCost>
+        <researchViewX>7</researchViewX>
         <researchViewY>4.5</researchViewY>
     </ResearchProjectDef>
 
@@ -569,7 +585,7 @@
             <li>SSRStandardizedMineConstruction</li>
         </prerequisites>
         <baseCost>10000</baseCost>
-        <researchViewX>7</researchViewX>
+        <researchViewX>8</researchViewX>
         <researchViewY>4.5</researchViewY>
     </ResearchProjectDef>
 
@@ -585,7 +601,7 @@
             <li>SSRStandardizedMineConstruction</li>
         </prerequisites>
         <baseCost>10000</baseCost>
-        <researchViewX>7</researchViewX>
+        <researchViewX>8</researchViewX>
         <researchViewY>5</researchViewY>
     </ResearchProjectDef>
 	
@@ -823,6 +839,38 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSREncryptionSystemCracking</defName>
+        <label>加密系统破解</label>
+        <description>加密系统破解</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRMedium-levelPowerTechnology</li>
+        </prerequisites>
+        <baseCost>5000</baseCost>
+        <researchViewX>14</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRHighDensityBattery</defName>
+        <label>高密度电池</label>
+        <description>高密度电池</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRMedium-levelPowerTechnology</li>
+        </prerequisites>
+        <baseCost>7000</baseCost>
+        <researchViewX>15</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRHighEnergyLaserArray</defName>
         <label>高能激光阵列</label>
         <description>高能激光阵列</description>
@@ -832,10 +880,10 @@
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRPrecisionOptics</li>
-			<li>SSRMedium-levelPowerTechnology</li>
+			<li>SSRHighDensityBattery</li>
         </prerequisites>
-        <baseCost>6000</baseCost>
-        <researchViewX>15</researchViewX>
+        <baseCost>9000</baseCost>
+        <researchViewX>16</researchViewX>
         <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>
 
@@ -851,7 +899,7 @@
 			<li>SSRHighEnergyLaserArray</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>-->
 
@@ -864,10 +912,10 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRMedium-levelPowerTechnology</li>
+			<li>SSRHighDensityBattery</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>15</researchViewX>
+        <researchViewX>16</researchViewX>
         <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
@@ -883,7 +931,7 @@
 			<li>SSRStandardizedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>4000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>17</researchViewX>
         <researchViewY>1</researchViewY>
     </ResearchProjectDef>-->
 
@@ -1142,6 +1190,22 @@
         <baseCost>10000</baseCost>
         <researchViewX>14</researchViewX>
         <researchViewY>4.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRBasicMiningAutomation</defName>
+        <label>基础采矿自动化</label>
+        <description>基础采矿自动化</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRStandardizedMineConstruction</li>
+        </prerequisites>
+        <baseCost>10000</baseCost>
+        <researchViewX>14</researchViewX>
+        <researchViewY>5</researchViewY>
     </ResearchProjectDef>
 	
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
