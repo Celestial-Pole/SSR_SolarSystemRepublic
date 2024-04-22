@@ -977,6 +977,7 @@
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
+            <li>SSRMedium-levelPowerTechnology</li>
 			<li>SSRMedium-levelDefenseStructure</li>
             <li>SSRBasicArmoredSafetyDoor</li>
             <li>SSRStandardizedArtificialIntelligence</li>
@@ -1139,7 +1140,7 @@
             <li>SSRMedium-levelPowerTechnology</li>
         </prerequisites>
         <baseCost>7000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>15</researchViewX>
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 
@@ -1156,7 +1157,7 @@
             <li>SSRHighEnergyLaserArray</li>
         </prerequisites>
         <baseCost>9000</baseCost>
-        <researchViewX>16</researchViewX>
+        <researchViewX>15</researchViewX>
         <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 
@@ -1170,6 +1171,7 @@
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRBasicMineMiningAutomation</li>
+            <li>SSRStandardizedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>10000</baseCost>
         <researchViewX>14</researchViewX>
@@ -1186,6 +1188,7 @@
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRBasicTunnelMiningAutomation</li>
+            <li>SSRStandardizedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>10000</baseCost>
         <researchViewX>14</researchViewX>
@@ -1202,6 +1205,7 @@
 		</requiredResearchFacilities>
 		<prerequisites>
             <li>SSRStandardizedMineConstruction</li>
+            <li>SSRStandardizedArtificialIntelligence</li>
         </prerequisites>
         <baseCost>10000</baseCost>
         <researchViewX>14</researchViewX>
@@ -1361,8 +1365,57 @@
         <researchViewX>22</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedEnergyTechnology</defName>
+        <label>高级能源技术</label>
+        <description>高级能源技术</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedComputationalScience</li>
+			<li>SSRMedium-levelPowerTechnology</li>
+        </prerequisites>
+        <baseCost>15000</baseCost>
+        <researchViewX>23</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRParticleConfinementTechnology</defName>
+        <label>粒子约束技术</label>
+        <description>粒子约束技术</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+        </prerequisites>
+        <baseCost>15000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAntimatterApplicationsTechnology</defName>
+        <label>反物质应用技术</label>
+        <description>反物质应用技术</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRParticleConfinementTechnology</li>
+        </prerequisites>
+        <baseCost>20000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRFurniture</defName>
         <label>太阳系共和国家具</label>
         <description>太阳系共和国家具</description>
@@ -1376,23 +1429,7 @@
         <baseCost>1500</baseCost>
         <researchViewX>23</researchViewX>
         <researchViewY>0</researchViewY>
-    </ResearchProjectDef>
-	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRClothing</defName>
-        <label>太阳系共和国服装</label>
-        <description>太阳系共和国服装</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedComputationalScience</li>
-        </prerequisites>
-        <baseCost>1500</baseCost>
-        <researchViewX>24</researchViewX>
-        <researchViewY>0</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef>-->
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedArtificialIntelligence</defName>
@@ -1410,8 +1447,177 @@
         <researchViewX>23</researchViewX>
         <researchViewY>0.5</researchViewY>
     </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedDefenseStructure</defName>
+        <label>高级防御结构</label>
+        <description>高级防御结构</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedMaterialsScience</li>
+            <li>SSRMedium-levelDefenseStructure</li>
+        </prerequisites>
+        <baseCost>7000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedArmoredSafetyDoor</defName>
+        <label>高级装甲安全门</label>
+        <description>高级装甲安全门</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRAdvancedEnergyTechnology</li>
+			<li>SSRAdvancedDefenseStructure</li>
+            <li>SSRMedium-levelArmoredSafetyDoor</li>
+            <li>SSRAdvancedArtificialIntelligence</li>
+        </prerequisites>
+        <baseCost>5000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedAutomaticGunCharger</defName>
+        <label>高级自动装弹机</label>
+        <description>高级自动装弹机</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRMedium-levelAutomaticGunCharger</li>
+            <li>SSRAdvancedEnergyTechnology</li>
+        </prerequisites>
+        <baseCost>12000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRHighEnergyLaserTurret</defName>
+        <label>高级激光防御设施</label>
+        <description>高级激光防御设施</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRHighEnergyLaserWeapon</li>
+			<li>SSRMedium-levelTurret</li>
+        </prerequisites>
+        <baseCost>13000</baseCost>
+        <researchViewX>26</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>-->
+
+    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRParticleBeamTurret</defName>
+        <label>高级粒子束防御设施</label>
+        <description>高级粒子束防御设施</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRParticleBeamWeapon</li>
+			<li>SSRMedium-levelTurret</li>
+        </prerequisites>
+        <baseCost>13000</baseCost>
+        <researchViewX>26</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>-->
+
+    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRBallLightningTurret</defName>
+        <label>高级球闪防御设施</label>
+        <description>高级球闪防御设施</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRBallLightningWeapon</li>
+			<li>SSRMedium-levelTurret</li>
+        </prerequisites>
+        <baseCost>13000</baseCost>
+        <researchViewX>26</researchViewX>
+        <researchViewY>1.5</researchViewY>
+    </ResearchProjectDef>-->
+
+    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRHighEnergyLaserWeapon</defName>
+        <label>高能激光武器</label>
+        <description>高能激光武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+            <li>SSRLaserWeapon</li>
+        </prerequisites>
+        <baseCost>20000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRParticleBeamWeapon</defName>
+        <label>粒子束武器</label>
+        <description>粒子束武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRParticleConfinementTechnology</li>
+        </prerequisites>
+        <baseCost>17000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRBallLightningWeapon</defName>
+        <label>球形闪电武器</label>
+        <description>球形闪电武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+        </prerequisites>
+        <baseCost>20000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>-->
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRClothing</defName>
+        <label>太阳系共和国服装</label>
+        <description>太阳系共和国服装</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedComputationalScience</li>
+        </prerequisites>
+        <baseCost>1500</baseCost>
+        <researchViewX>23</researchViewX>
+        <researchViewY>3.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedSpecialGarments</defName>
         <label>高级特种服装</label>
         <description>高级特种服装</description>
@@ -1421,10 +1627,12 @@
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRAdvancedArtificialIntelligence</li>
+            <li>SSRAdvancedComputationalScience</li>
+            <li>SSRMedium-levelSpecialGarments</li>
         </prerequisites>
         <baseCost>13000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1441,8 +1649,8 @@
 			<li>SSRBasicPowerArmor</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>25</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewX>26</researchViewX>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1458,8 +1666,8 @@
 			<li>SSRMedium-levelAutomaton</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>26</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewX>27</researchViewX>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1475,94 +1683,11 @@
 			<li>SSRMedium-levelCombatRobot</li>
         </prerequisites>
         <baseCost>17000</baseCost>
-        <researchViewX>27</researchViewX>
-        <researchViewY>0.5</researchViewY>
-    </ResearchProjectDef>-->
-	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRAdvancedEnergyTechnology</defName>
-        <label>高级能源技术</label>
-        <description>高级能源技术</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedComputationalScience</li>
-			<li>SSRMedium-levelPowerTechnology</li>
-        </prerequisites>
-        <baseCost>15000</baseCost>
-        <researchViewX>23</researchViewX>
-        <researchViewY>1</researchViewY>
-    </ResearchProjectDef>
-	
-	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRParticleBeamWeapon</defName>
-        <label>粒子束武器</label>
-        <description>粒子束武器</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
-        </prerequisites>
-        <baseCost>17000</baseCost>
-        <researchViewX>24</researchViewX>
-        <researchViewY>1</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRBallLightningWeapon</defName>
-        <label>球形闪电武器</label>
-        <description>球形闪电武器</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
-        </prerequisites>
-        <baseCost>20000</baseCost>
-        <researchViewX>24</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <researchViewX>28</researchViewX>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRAdvancedTurret</defName>
-        <label>高级防御设施</label>
-        <description>高级防御设施</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRParticleBeamWeapon</li>
-			<li>SSRMedium-levelTurret</li>
-            <li>SSRBallLightningWeapon</li>
-        </prerequisites>
-        <baseCost>13000</baseCost>
-        <researchViewX>25</researchViewX>
-        <researchViewY>1</researchViewY>
-    </ResearchProjectDef>-->
-	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRBasicAntimatterApplications</defName>
-        <label>基础反物质应用</label>
-        <description>基础反物质应用</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
-        </prerequisites>
-        <baseCost>15000</baseCost>
-        <researchViewX>24</researchViewX>
-        <researchViewY>1.5</researchViewY>
-    </ResearchProjectDef>
-	
-	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedAviation</defName>
         <label>高级航空技术</label>
         <description>中级航空技术</description>
@@ -1579,25 +1704,125 @@
         <baseCost>17000</baseCost>
         <researchViewX>25</researchViewX>
         <researchViewY>1.5</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef>-->
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRAdvancedSpaceTechnology</defName>
-        <label>高级航天技术</label>
-        <description>高级航天技术</description>
+        <defName>SSRSpaceElevator</defName>
+        <label>太空电梯</label>
+        <description>太空电梯</description>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
 			<li>SSR_DataTerminal</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>SSRAdvancedAviation</li>
+			<li>SSRHeavyRocketConstructionTechnology</li>
+            <li>SSRAdvancedArtificialIntelligence</li>
         </prerequisites>
-        <baseCost>19000</baseCost>
-        <researchViewX>26</researchViewX>
-        <researchViewY>1.5</researchViewY>
+        <baseCost>30000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSROrbitDefensePlatform</defName>
+        <label>轨道防御平台</label>
+        <description>轨道防御平台</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRSpaceElevator</li>
+        </prerequisites>
+        <baseCost>30000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSROrbitParticleCollectionPlatform</defName>
+        <label>轨道粒子收集平台</label>
+        <description>轨道粒子收集平台</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRSpaceElevator</li>
+        </prerequisites>
+        <baseCost>30000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>4.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRShuttleHangar</defName>
+        <label>穿梭机机库</label>
+        <description>穿梭机机库</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRSpaceElevator</li>
+        </prerequisites>
+        <baseCost>30000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedMineMiningAutomation</defName>
+        <label>高级矿井挖掘自动化</label>
+        <description>高级矿井挖掘自动化</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRMedium-levelMineMiningAutomation</li>
+            <li>SSRAdvancedArtificialIntelligence</li>
+        </prerequisites>
+        <baseCost>30000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>5.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedTunnelMiningAutomation</defName>
+        <label>高级矿道挖掘自动化</label>
+        <description>高级矿道挖掘自动化</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRMedium-levelTunnelMiningAutomation</li>
+            <li>SSRAdvancedArtificialIntelligence</li>
+        </prerequisites>
+        <baseCost>30000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>6</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRAdvancedMiningAutomation</defName>
+        <label>高级采矿自动化</label>
+        <description>高级采矿自动化</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+            <li>SSRBasicMiningAutomation</li>
+            <li>SSRAdvancedArtificialIntelligence</li>
+        </prerequisites>
+        <baseCost>35000</baseCost>
+        <researchViewX>24</researchViewX>
+        <researchViewY>6.5</researchViewY>
     </ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedPlantingTechnique</defName>
         <label>高级种植技术</label>
         <description>高级种植技术</description>
