@@ -39,11 +39,11 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-250000</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
-      </li>
+      <li Class="FS_SSR.TCP_IgnitedPowerTrader">
+				<basePowerConsumption>20000</basePowerConsumption>
+				<IgnitedPowerOutput>230000</IgnitedPowerOutput>
+				<transmitsPower>true</transmitsPower>
+			</li>
       <!--<li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>4.5</fuelConsumptionRate>
         <fuelCapacity>30.0</fuelCapacity>
@@ -53,6 +53,11 @@
           </thingDefs>
         </fuelFilter>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-250000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
       </li>-->
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>

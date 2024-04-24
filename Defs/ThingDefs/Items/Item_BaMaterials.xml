@@ -54,6 +54,9 @@
             <Mass>0.5</Mass>
         </statBases>
         <stuffProps>
+            <categories>
+                <li>Stony</li>
+            </categories>
             <statFactors>
                 <MaxHitPoints>0.25</MaxHitPoints>
                 <Beauty>1.5</Beauty>
@@ -84,6 +87,9 @@
             <Mass>1.5</Mass>
         </statBases>
         <stuffProps>
+            <categories>
+                <li>Stony</li>
+            </categories>
             <statFactors>
                 <MaxHitPoints>3.25</MaxHitPoints>
                 <Beauty>1</Beauty>
@@ -114,6 +120,9 @@
             <Mass>0.75</Mass>
         </statBases>
         <stuffProps>
+            <categories>
+                <li>Metallic</li>
+            </categories>
             <statFactors>
                 <MaxHitPoints>3.75</MaxHitPoints>
                 <Beauty>1</Beauty>
@@ -186,6 +195,9 @@
             <Mass>0.1</Mass>
         </statBases>
         <stuffProps>
+            <categories>
+                <li>Metallic</li>
+            </categories>
             <statFactors>
                 <MaxHitPoints>15</MaxHitPoints>
                 <Beauty>2</Beauty>
@@ -219,6 +231,11 @@
         </statBases>
         <smallVolume>true</smallVolume>
         <stuffProps>
+            <categories>
+                <li>Stony</li>
+                <li>Fabric</li>
+                <li>Metallic</li>
+            </categories>
             <statFactors>
                 <MaxHitPoints>50</MaxHitPoints>
                 <Beauty>10</Beauty>

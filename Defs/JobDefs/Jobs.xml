@@ -54,5 +54,12 @@
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
+	<JobDef>
+		<defName>SSR_Job_FillLaundryII</defName>
+		<driverClass>FS_SSR.Laundry.JobDriver_FillLaundryII</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 
 </Defs>

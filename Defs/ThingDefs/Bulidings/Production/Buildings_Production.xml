@@ -415,6 +415,13 @@
 				<value>15</value>
 				<stockPerTunnel>1000</stockPerTunnel>
 			</li>
+      <li>
+				<def>SSR_Carbon</def>
+				<workAmout>1</workAmout>
+				<yield>75</yield>
+				<value>15</value>
+				<stockPerTunnel>10000000</stockPerTunnel>
+			</li>
 		</manualMineralProperties>
 	</ThingDef>
   

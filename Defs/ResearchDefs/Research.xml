@@ -1414,6 +1414,55 @@
         <researchViewX>25</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
+
+    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRHighEnergyLaserWeapon</defName>
+        <label>高能激光武器</label>
+        <description>高能激光武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+            <li>SSRLaserWeapon</li>
+        </prerequisites>
+        <baseCost>20000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>0.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRParticleBeamWeapon</defName>
+        <label>粒子束武器</label>
+        <description>粒子束武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRParticleConfinementTechnology</li>
+        </prerequisites>
+        <baseCost>17000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>1.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+        <defName>SSRBallLightningWeapon</defName>
+        <label>球形闪电武器</label>
+        <description>球形闪电武器</description>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+			<li>SSR_DataTerminal</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SSRAdvancedEnergyTechnology</li>
+        </prerequisites>
+        <baseCost>20000</baseCost>
+        <researchViewX>25</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>-->
 	
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRFurniture</defName>
@@ -1445,7 +1494,7 @@
         </prerequisites>
         <baseCost>17000</baseCost>
         <researchViewX>23</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1462,7 +1511,7 @@
         </prerequisites>
         <baseCost>7000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1481,7 +1530,7 @@
         </prerequisites>
         <baseCost>5000</baseCost>
         <researchViewX>25</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1498,7 +1547,7 @@
         </prerequisites>
         <baseCost>12000</baseCost>
         <researchViewX>25</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 
     <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1515,7 +1564,7 @@
         </prerequisites>
         <baseCost>13000</baseCost>
         <researchViewX>26</researchViewX>
-        <researchViewY>0.5</researchViewY>
+        <researchViewY>2.5</researchViewY>
     </ResearchProjectDef>-->
 
     <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1532,7 +1581,7 @@
         </prerequisites>
         <baseCost>13000</baseCost>
         <researchViewX>26</researchViewX>
-        <researchViewY>1</researchViewY>
+        <researchViewY>3</researchViewY>
     </ResearchProjectDef>-->
 
     <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1549,56 +1598,7 @@
         </prerequisites>
         <baseCost>13000</baseCost>
         <researchViewX>26</researchViewX>
-        <researchViewY>1.5</researchViewY>
-    </ResearchProjectDef>-->
-
-    <!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRHighEnergyLaserWeapon</defName>
-        <label>高能激光武器</label>
-        <description>高能激光武器</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
-            <li>SSRLaserWeapon</li>
-        </prerequisites>
-        <baseCost>20000</baseCost>
-        <researchViewX>25</researchViewX>
-        <researchViewY>2</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRParticleBeamWeapon</defName>
-        <label>粒子束武器</label>
-        <description>粒子束武器</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRParticleConfinementTechnology</li>
-        </prerequisites>
-        <baseCost>17000</baseCost>
-        <researchViewX>25</researchViewX>
-        <researchViewY>2.5</researchViewY>
-    </ResearchProjectDef>
-
-    <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
-        <defName>SSRBallLightningWeapon</defName>
-        <label>球形闪电武器</label>
-        <description>球形闪电武器</description>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-        <requiredResearchFacilities>
-			<li>SSR_DataTerminal</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>SSRAdvancedEnergyTechnology</li>
-        </prerequisites>
-        <baseCost>20000</baseCost>
-        <researchViewX>25</researchViewX>
-        <researchViewY>3</researchViewY>
+        <researchViewY>3.5</researchViewY>
     </ResearchProjectDef>-->
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1614,7 +1614,7 @@
         </prerequisites>
         <baseCost>1500</baseCost>
         <researchViewX>23</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewY>4</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1632,7 +1632,7 @@
         </prerequisites>
         <baseCost>13000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewY>4</researchViewY>
     </ResearchProjectDef>
 	
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1649,8 +1649,8 @@
 			<li>SSRBasicPowerArmor</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>26</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewX>25</researchViewX>
+        <researchViewY>4</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1666,8 +1666,8 @@
 			<li>SSRMedium-levelAutomaton</li>
         </prerequisites>
         <baseCost>15000</baseCost>
-        <researchViewX>27</researchViewX>
-        <researchViewY>3.5</researchViewY>
+        <researchViewX>26</researchViewX>
+        <researchViewY>4</researchViewY>
     </ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1683,11 +1683,11 @@
 			<li>SSRMedium-levelCombatRobot</li>
         </prerequisites>
         <baseCost>17000</baseCost>
-        <researchViewX>28</researchViewX>
-        <researchViewY>3.5</researchViewY>
-    </ResearchProjectDef>
+        <researchViewX>27</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>-->
 	
-	<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
+	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
         <defName>SSRAdvancedAviation</defName>
         <label>高级航空技术</label>
         <description>中级航空技术</description>
@@ -1720,7 +1720,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewY>4.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1736,7 +1736,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>25</researchViewX>
-        <researchViewY>4</researchViewY>
+        <researchViewY>4.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1749,10 +1749,11 @@
 		</requiredResearchFacilities>
 		<prerequisites>
 			<li>SSRSpaceElevator</li>
+            <li>SSRParticleConfinementTechnology</li>
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>25</researchViewX>
-        <researchViewY>4.5</researchViewY>
+        <researchViewY>5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1768,7 +1769,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>25</researchViewX>
-        <researchViewY>5</researchViewY>
+        <researchViewY>5.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1785,7 +1786,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>5.5</researchViewY>
+        <researchViewY>6</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1802,7 +1803,7 @@
         </prerequisites>
         <baseCost>30000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>6</researchViewY>
+        <researchViewY>6.5</researchViewY>
     </ResearchProjectDef>
 
     <ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
@@ -1819,7 +1820,7 @@
         </prerequisites>
         <baseCost>35000</baseCost>
         <researchViewX>24</researchViewX>
-        <researchViewY>6.5</researchViewY>
+        <researchViewY>7</researchViewY>
     </ResearchProjectDef>
 	
 	<!--<ResearchProjectDef ParentName="SSR_ResearchProjectBasic">
