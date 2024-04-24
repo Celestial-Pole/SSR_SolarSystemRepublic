@@ -13,9 +13,9 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Stony</li>
-          </thingDefs>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
         </filter>
         <count>2</count>
       </li>
@@ -37,8 +37,10 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
       <thingDefs>
-        <li>Stony</li>
         <li>SSR_Sand</li>
         <li>Steel</li>
       </thingDefs>
@@ -62,9 +64,9 @@
     <ingredients>
      <li>
         <filter>
-          <thingDefs>
-            <li>Stony</li>
-          </thingDefs>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
         </filter>
         <count>20</count>
       </li>
@@ -86,8 +88,10 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
       <thingDefs>
-        <li>Stony</li>
         <li>SSR_Sand</li>
         <li>Steel</li>
       </thingDefs>
@@ -111,9 +115,9 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Stony</li>
-          </thingDefs>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
         </filter>
         <count>200</count>
       </li>
@@ -135,8 +139,10 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
       <thingDefs>
-        <li>Stony</li>
         <li>SSR_Sand</li>
         <li>Steel</li>
       </thingDefs>
