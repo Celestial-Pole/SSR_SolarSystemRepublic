@@ -1,6 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef Class="FS_SSR.Roof.RoofBuilderDef_Extinguisher" ParentName="BuildingNaturalBase">
+    <defName>SSR_SprayFireExtinguishingDevice</defName>
+    <label>消防喷淋器</label>
+    <description>消防喷淋器</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <withFoam>true</withFoam>
+    <graphicData>
+      <texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+	  <thingClass>FS_SSR.Roof.RoofBuilder_Extinguisher</thingClass>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0</fillPercent>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>true</canOverlapZones>
+    <size>(1,1)</size>
+    <building>
+      <isEdifice>false</isEdifice>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>FS_SSR.Roof.PW_RoofBuilder_Extinguisher</li>
+    </placeWorkers>
+  </ThingDef>
+
+	
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>SSR_DeconsSprayFireExtinguishingDevice</defName>
+    <label>拆除消防喷淋器</label>
+    <description>拆除消防喷淋器</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+	  <thingClass>FS_SSR.Roof.RoofRemover_Extinguisher</thingClass>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0</fillPercent>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>true</canOverlapZones>
+    <size>(1,1)</size>
+    <building>
+      <isEdifice>false</isEdifice>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>FS_SSR.Roof.PW_UnderRoofExtinguisher</li>
+    </placeWorkers>
+  </ThingDef>
+
   <ThingDef ParentName="BuildingBase">
     <defName>SSR_DataTerminal</defName>
     <label>数据终端</label>
