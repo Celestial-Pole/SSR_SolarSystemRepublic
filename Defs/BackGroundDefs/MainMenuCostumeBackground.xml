@@ -4,7 +4,7 @@
 	<Def Class="FS_SSR.UI.MainMenuBGDef">
 		<defName>SSR_BG</defName>
 		<label>default bg</label>
-		<path>UI/BackGround/BackGround-Core</path>
+		<path>UI/Background/Background-Core</path>
 	</Def>
 
 </Defs>
