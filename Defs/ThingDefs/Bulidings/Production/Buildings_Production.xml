@@ -120,8 +120,8 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>SSR_NumericalControlledMachineTool</defName>
-    <label>数控机床</label>
-    <description>数控机床</description>
+    <label>数控加工中心</label>
+    <description>数控加工中心</description>
     <thingClass>FS_SSR.ThingClass_AutoWorkbench</thingClass>
     <tickerType>Normal</tickerType>
     <graphicData>
