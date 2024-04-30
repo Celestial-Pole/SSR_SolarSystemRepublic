@@ -49,9 +49,12 @@
 			<li>BuildingsProduction</li>
 		</thingCategories>
 		<comps>
+			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
+				
+			</li>
 		</comps>
 		<placeWorkers>
-		  <li>FS_SSR.Generic.PW_UniqueBuilding</li>
+		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
 		</placeWorkers>
 	</ThingDef>
 </Defs>

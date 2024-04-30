@@ -6,6 +6,13 @@
 		<predictableIncidents>
 			<li>ToxicFallout</li>
 		</predictableIncidents>
+		<particleSatelliteAwards>
+			<li>
+				<item>Steel</item>
+				<amount>20</amount>
+				<weight>1</weight>
+			</li>
+		</particleSatelliteAwards>
 	</Def>
 
 </Defs>
