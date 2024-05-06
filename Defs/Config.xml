@@ -13,6 +13,10 @@
 				<weight>1</weight>
 			</li>
 		</particleSatelliteAwards>
+		<predictableIncidents>
+			<li>DropPodIncomingMechanoid</li>
+			<li>ShipChunkIncoming</li>
+		</predictableIncidents>
 	</Def>
 
 </Defs>
