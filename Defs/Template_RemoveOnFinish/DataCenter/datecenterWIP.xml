@@ -52,6 +52,13 @@
 			<li Class="FS_SSR.Generic.TCP_DrawOverlay">
 				
 			</li>
+			<li Class="FS_SSR.TCP_RuinInsteadOfKill" >
+				<ruinGraphic>
+					<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(15,15)</drawSize>
+				</ruinGraphic>
+			</li>
 		</comps>
 		<placeWorkers>
 		    <li>FS_SSR.Generic.PW_WorldUniqueBuilding</li>
