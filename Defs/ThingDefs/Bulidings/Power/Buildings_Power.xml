@@ -99,14 +99,19 @@
 			<texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5,5)</drawSize>
+      <shadowData>
+        <volume>(0.6, 1.0, 1.6)</volume>
+        <offset>(-0.1,0,-0.08)</offset>
+      </shadowData>
 		</graphicData>
     <uiIconPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster</uiIconPath>
 		<size>(5,5)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
 		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
+		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Power</designationCategory>
 		<canOverlapZones>false</canOverlapZones>
@@ -137,7 +142,11 @@
         <overlay>
 			    <texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
 			    <graphicClass>Graphic_Single</graphicClass>
-			    <drawSize>(5,5)</drawSize>
+			    <drawSize>(14,14)</drawSize>
+          <shadowData>
+            <volume>(0.6, 1.0, 1.6)</volume>
+            <offset>(-0.1,0,-0.08)</offset>
+          </shadowData>
 		    </overlay>
       </li>
 		</comps>
