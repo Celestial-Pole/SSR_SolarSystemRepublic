@@ -17,7 +17,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>45</cooldownDays>
     <usableOnWorldMap>true</usableOnWorldMap>
-    <minTitle>SSR_Freeholder</minTitle>
+    <minTitle>SSR_BaseMan</minTitle>
     <royalAid>
       <targetingRange>39.9</targetingRange>
     </royalAid>
@@ -27,7 +27,7 @@
     <defName>SSR_GeneralGoodsDrop</defName>
     <label>呼叫通用物资补给</label>
     <description>呼叫通用物资补给</description>
-    <minTitle>SSR_Freeholder</minTitle>
+    <minTitle>SSR_BaseMan</minTitle>
     <uiPosition>(0,0)</uiPosition>
     <royalAid>
       <itemsToDrop>

@@ -35,7 +35,8 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Disapproved</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Abhorrent</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
@@ -57,6 +58,7 @@
             <li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
             <li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Encouraged</li>
         </disallowedPrecepts>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
         <permanentEnemyToEveryoneExcept>
             <li>OutlanderCivil</li>
             <li>TribeCivil</li>
