@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <FactionDef>
+    <FactionDef ParentName="FactionBase">
         <defName>SSR_Faction</defName>
         <label>太阳系共和国前哨站</label>
-        <description>太阳系共和国前哨站。</description>
-        <leaderTitle>站点主管</leaderTitle>
         <categoryTag>Outlander</categoryTag>
+        <description>太阳系共和国前哨站。</description>
         <listOrderPriority>30</listOrderPriority>
+        <pawnSingular>共和国公民</pawnSingular>
+        <pawnsPlural>共和国公民</pawnsPlural>
         <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <!-- <displayInFactionSelection>false</displayInFactionSelection> -->
         <hidden>true</hidden>
         <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <leaderTitle>站点主管</leaderTitle>
+        <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
         <factionIconPath>UI/SSR_FactionIcon</factionIconPath>
         <techLevel>Archotech</techLevel>
         <factionNameMaker>SSR_FactionNamer</factionNameMaker>
@@ -52,7 +55,17 @@
             <li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Revered</li>
             <li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential</li>
             <li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Encouraged</li>
         </disallowedPrecepts>
+        <permanentEnemyToEveryoneExcept>
+            <li>OutlanderCivil</li>
+            <li>TribeCivil</li>
+            <li>PlayerTribe</li>
+            <li>PlayerColony</li>
+            <li>Ancients</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+        </permanentEnemyToEveryoneExcept>
         <backstoryFilters>
             <li>
                 <categories>
@@ -65,11 +78,37 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <baseTraderKinds>
+            <li>SSR_MaterialOrbital</li>
+        </baseTraderKinds>
+        <caravanTraderKinds>
+            <li>SSR_FarmOrbital</li>
+            <li>SSR_MedicalOrbital</li>
+            <li>SSR_EveryOrbital</li>
+            <li>SSR_WeapenOrbital</li>
+        </caravanTraderKinds>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+            <li>Child</li>
+            <li>Grandchild</li>
+            <li>GreatGrandchild</li>
+            <li>NephewOrNiece</li>
+            <li>Spouse</li>
+            <li>Sibling</li>
+            <li>HalfSibling</li>
+            <li>Cousin</li>
+            <li>Parent</li>
+            <li>UncleOrAunt</li>
+        </royalTitleInheritanceRelations>
+        <royalTitleTags>
+            <li>SSR_Title</li>
+        </royalTitleTags>
         <raidLootValueFromPointsCurve>
             <points>
                 <li>(0,0)</li>
             </points>
         </raidLootValueFromPointsCurve>
+        <configurationListOrderPriority>100</configurationListOrderPriority>
     </FactionDef>
 
     <RulePackDef>

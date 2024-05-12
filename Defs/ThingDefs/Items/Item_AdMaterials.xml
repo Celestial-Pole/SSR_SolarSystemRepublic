@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--<ThingDef ParentName="ResourceBase" Name="SSR_AdMaterial" Abstract="True">
-        <soundInteract>Metal_Drop</soundInteract>
-        <soundDrop>Metal_Drop</soundDrop>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
-        <resourceReadoutPriority>Middle</resourceReadoutPriority>
-        <stackLimit>75</stackLimit>
-        <burnableByRecipe>false</burnableByRecipe>
-        <smallVolume>false</smallVolume>
-        <statBases>
-            <Flammability>0</Flammability>
-        </statBases>
-        <thingCategories>
-            <li>ResourcesRaw</li>
-        </thingCategories>
-        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    </ThingDef>-->
-
     <ThingDef Name="SSR_AdMaterial" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -36,8 +18,12 @@
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
+    <intricate>true</intricate>
+    <tradeTags>
+        <li>ExoticMisc</li>
+    </tradeTags>
     <thingCategories>
-        <li>ResourcesRaw</li>
+        <li>SSR_Manufactured</li>
     </thingCategories>
     <alwaysHaulable>true</alwaysHaulable>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -70,13 +56,6 @@
             <Mass>0.03</Mass>
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -98,13 +77,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -126,13 +98,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -154,13 +119,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>3.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <!-- ==================================== Tech Level 2 =====================================-->
@@ -184,13 +142,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>3.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -212,13 +163,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -240,13 +184,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -268,13 +205,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <!-- ==================================== Tech Level 3 =====================================-->
@@ -298,13 +228,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>3.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -326,13 +249,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -354,13 +270,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -382,13 +291,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
     <ThingDef ParentName="SSR_AdMaterial">
@@ -410,13 +312,6 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1.0</DeteriorationRate>
         </statBases>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>ExoticMisc</li>
-        </tradeTags>
     </ThingDef>
 
 </Defs>

@@ -22,7 +22,7 @@
             <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
         </stuffProps>
         <thingCategories>
-            <li>Textiles</li>
+            <li>SSR_Material</li>
         </thingCategories>
     </ThingDef>
 

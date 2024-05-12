@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoyalTitlePermitDef>
+    <defName>SSR_TradeOrbital</defName>
+    <label>与轨道交易商进行交易</label>
+  </RoyalTitlePermitDef>
+
+
+  <!-- ============================= Faction permits ============================= -->
+
+  <!-- Econ -->
+
+  <RoyalTitlePermitDef Name="SSR_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>SSR_Faction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <minTitle>SSR_Freeholder</minTitle>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_GeneralGoodsDrop</defName>
+    <label>呼叫通用物资补给</label>
+    <description>呼叫通用物资补给</description>
+    <minTitle>SSR_Freeholder</minTitle>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>75</MealSurvivalPack>
+        <Steel>150</Steel>
+        <ComponentIndustrial>30</ComponentIndustrial>
+        <MedicineIndustrial>15</MedicineIndustrial>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_FoodDrop</defName>
+    <label>呼叫食品物资补给</label>
+    <description>呼叫食品物资补给</description>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>300</MealSurvivalPack>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_MedicDrop</defName>
+    <label>呼叫医疗物资补给</label>
+    <description>呼叫医疗物资补给</description>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MedicineIndustrial>75</MedicineIndustrial>
+        <MedicineUltratech>3</MedicineUltratech>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_ConstructionDrop</defName>
+    <label>呼叫建设物资补给</label>
+    <description>呼叫建设物资补给</description>
+    <uiPosition>(0,3)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <SSR_StandardConstructionElement>300</SSR_StandardConstructionElement>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!-- Combat -->
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_CallEngineer</defName>
+    <label>呼叫工兵部队</label>
+    <description>呼叫工兵部队</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Empire_Fighter_Trooper</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="SSR_DropResourcesBase">
+    <defName>SSR_CallBasicBattle</defName>
+    <label>呼叫基础战斗小队</label>
+    <description>呼叫基础战斗小队</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Empire_Fighter_Trooper</pawnKindDef>
+      <pawnCount>4</pawnCount>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+</Defs>
