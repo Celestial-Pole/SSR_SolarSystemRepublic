@@ -57,6 +57,25 @@
             <li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential</li>
             <li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
             <li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Encouraged</li>
+            <li>NutrientPasteEating_Disgusting</li>
+            <li>Corpses_Ugly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_Random</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyWomans</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+            <li>MarriageName_UsuallyMans</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Prohibited</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Occasionally</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Sometimes</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_Efficient</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_Inefficient</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_VeryInefficient</li>
         </disallowedPrecepts>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
         <permanentEnemyToEveryoneExcept>
