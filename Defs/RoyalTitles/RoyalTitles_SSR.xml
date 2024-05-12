@@ -7,24 +7,15 @@
     </tags>
     <awardThought>GainedTitle</awardThought>
     <lostThought>LostTitle</lostThought>
-  </RoyalTitleDef>
-
-  <RoyalTitleDef ParentName="BaseSSRTitle">
-    <defName>SSR_Freeholder</defName>
-    <label>自由民</label>
-    <description>自由民</description>
-    <seniority>0</seniority>
-    <favorCost>1</favorCost>
-    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
-    <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    <recruitmentResistanceOffset>100</recruitmentResistanceOffset>
+    <canBeInherited>True</canBeInherited>  <!-- 可以继承 -->
   </RoyalTitleDef>
 
   <RoyalTitleDef ParentName="BaseSSRTitle">
     <defName>SSR_BaseMan</defName>
     <label>基层维和人员</label>
     <description>基层维和人员</description>
-    <seniority>100</seniority>
+    <seniority>0</seniority>
     <favorCost>6</favorCost>
     <changeHeirQuestPoints>1000</changeHeirQuestPoints>
     <commonality>1</commonality>
@@ -35,13 +26,11 @@
     <defName>SSR_HeadMan</defName>
     <label>维和小组组长</label>
     <description>维和小组组长</description>
-    <seniority>200</seniority>
+    <seniority>100</seniority>
     <favorCost>6</favorCost>
     <minExpectation>Moderate</minExpectation>  <!-- 最低期望 -->
     <changeHeirQuestPoints>1200</changeHeirQuestPoints>
-    <recruitmentResistanceOffset>10</recruitmentResistanceOffset>  <!-- 招募阻力 -->
     <commonality>1</commonality>
-    <canBeInherited>True</canBeInherited>  <!-- 可以继承 -->
     <permitPointsAwarded>1</permitPointsAwarded>
     <maxPsylinkLevel>2</maxPsylinkLevel>
   </RoyalTitleDef>
@@ -50,13 +39,11 @@
     <defName>SSR_RegionDirector</defName>
     <label>地区维和行动主管</label>
     <description>地区维和行动主管</description>
-    <seniority>300</seniority>
+    <seniority>200</seniority>
     <favorCost>8</favorCost>
     <minExpectation>High</minExpectation>
     <changeHeirQuestPoints>1600</changeHeirQuestPoints>
-    <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
     <commonality>1</commonality>
-    <canBeInherited>True</canBeInherited>
     <permitPointsAwarded>1</permitPointsAwarded>
     <throneRoomRequirements>
       <li Class="RoomRequirement_HasAssignedThroneAnyOf">
@@ -73,13 +60,11 @@
     <defName>SSR_AreaDirector</defName>
     <label>区域维和行动主管</label>
     <description>区域维和行动主管</description>
-    <seniority>400</seniority>
+    <seniority>300</seniority>
     <favorCost>10</favorCost>
     <minExpectation>SkyHigh</minExpectation>
     <changeHeirQuestPoints>2200</changeHeirQuestPoints>
-    <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
     <commonality>1</commonality>
-    <canBeInherited>True</canBeInherited>
     <permitPointsAwarded>1</permitPointsAwarded>
     <throneRoomRequirements>
       <li Class="RoomRequirement_HasAssignedThroneAnyOf">
@@ -96,14 +81,11 @@
     <defName>SSR_PlanetManager</defName>
     <label>星球维和行动负责人</label>
     <description>星球维和行动负责人</description>
-    <seniority>500</seniority>
+    <seniority>400</seniority>
     <favorCost>14</favorCost>
     <minExpectation>Noble</minExpectation>
-    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
     <changeHeirQuestPoints>2800</changeHeirQuestPoints>
-    <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
     <commonality>1</commonality>
-    <canBeInherited>True</canBeInherited>
     <permitPointsAwarded>1</permitPointsAwarded>
     <throneRoomRequirements>
       <li Class="RoomRequirement_HasAssignedThroneAnyOf">
