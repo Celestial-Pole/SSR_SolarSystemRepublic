@@ -143,7 +143,8 @@
         <overlay>
           <texPath>Things/Building/Power/WirelessPowerBroadcaster/WirelessPowerBroadcaster-Top</texPath>
           <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>(14,14)</drawSize>
+          <drawSize>(7,7)</drawSize>
+          <drawOffset>(0,0,2.25)</drawOffset>
           <shadowData>
             <volume>(0.6, 1.0, 1.6)</volume>
             <offset>(-0.1,0,-0.08)</offset>
