@@ -1,9 +1,9 @@
 [submodule "SSR_SolarSystemRepublicCore"]
 	path = SSR_SolarSystemRepublicCore
-	url = https://github.com/FelixTaXk/SSR_SolarSystemRepublicCore.git
+	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicCore.git
 [submodule "SSR_SolarSystemRepublicFactionPart"]
 	path = SSR_SolarSystemRepublicFactionPart
-	url = https://github.com/FelixTaXk/SSR_SolarSystemRepublicFactionPart.git
+	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicFactionPart.git
 [submodule "SSR_SolarSystemRepublicCombatPart"]
 	path = SSR_SolarSystemRepublicCombatPart
-	url = https://github.com/FelixTaXk/SSR_SolarSystemRepublicCombatPart.git
+	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicCombatPart.git
