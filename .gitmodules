@@ -7,9 +7,3 @@
 [submodule "SSR_SolarSystemRepublicCombatPart"]
 	path = SSR_SolarSystemRepublicCombatPart
 	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicCombatPart.git
-[submodule "SSR_BeautifulBody"]
-	path = SSR_BeautifulBody
-	url = https://github.com/Celestial-Pole/SSR_BeautifulBody.git
-[submodule "SSR_SolarSystemRepublicFurniture"]
-	path = SSR_SolarSystemRepublicFurniture
-	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicFurniture.git
