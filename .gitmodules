@@ -13,3 +13,6 @@
 [submodule "SSR_SolarSystemRepublicFurniture"]
 	path = SSR_SolarSystemRepublicFurniture
 	url = https://github.com/Celestial-Pole/SSR_SolarSystemRepublicFurniture.git
+[submodule "SSR_BeautifulFace"]
+	path = SSR_BeautifulFace
+	url = https://github.com/Celestial-Pole/SSR_BeautifulFace.git
