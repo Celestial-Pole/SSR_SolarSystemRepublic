@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>[SSR]Solar System Republic Universe 太阳系共和国太空包</name>
+	<packageId>SSR.Universe</packageId>
+	<author>Celestial Pole</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>SSR.Core</packageId>
+			<displayName>]Solar System Republic Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3324021172</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>CETeam.CombatExtended</li>
+		<li>Mehni.PickUpAndHaul</li>
+		<li>zsbk.patch16.whileyoureup</li>
+		<li>SSR.Core</li>
+	</loadAfter>
+	<description>Desc。</description>
+</ModMetaData>
